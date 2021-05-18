@@ -31,6 +31,23 @@ import org.nd4j.linalg.activations.Activation;
 import org.nd4j.linalg.dataset.api.iterator.DataSetIterator;
 import org.nd4j.linalg.learning.config.Adam;
 import org.nd4j.linalg.lossfunctions.LossFunctions;
+
+import org.datavec.api.records.reader.RecordReader;
+import org.datavec.api.records.reader.impl.csv.CSVRecordReader;
+import org.datavec.api.split.FileSplit;
+
+import org.deeplearning4j.datasets.datavec.RecordReaderDataSetIterator;
+
+import org.deeplearning4j.nn.conf.layers.DenseLayer;
+import org.deeplearning4j.nn.conf.layers.OutputLayer;
+
+import org.nd4j.linalg.dataset.DataSet;
+import org.nd4j.linalg.dataset.SplitTestAndTrain;
+import org.nd4j.linalg.dataset.api.preprocessor.DataNormalization;
+import org.nd4j.linalg.dataset.api.preprocessor.NormalizerStandardize;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -46,17 +63,63 @@ public class LeNetMNIST {
 
 
         int nChannels = 8; // Number of input channels
-        int outputNum = 1; // The number of possible outcomes
-        int batchSize = 64; // Test batch size
-        int nEpochs = 100; // Number of training epochs
+        int outputNum = 2; // The number of possible outcomes
+        int batchSize = 64; // Test batch size, czyli rozmiar wejscia. Ustawiamy go tez dalej.
+        int nEpochs = 100; // Number of training epochs - nie wiem jak to ustawic, gdzie to przekazac
         int seed = 123; // Seed generatora randomowego (?) , który miesza dane przed nauką i testem
 
         /*
             Create an iterator using the batch size for one iteration
          */
         log.info("Load data....");
-        DataSetIterator mnistTrain = new MnistDataSetIterator(batchSize,true,12345);
-        DataSetIterator mnistTest = new MnistDataSetIterator(batchSize,false,12345);
+
+
+        System.out.println();
+
+        // try other loading than RecordReader... (from word2vecrawtextexample.java)
+        String filePath = "C:\\Users\\kwozn\\Documents\\Projekty\\ml\\src\\main\\resources";//new ClassPathResource("raw_sentences.txt").getFile().getAbsolutePath();
+
+        //First: get the dataset using the record reader. CSVRecordReader handles loading/parsing
+        //String filename = "SandPFormatAllRand.csv";
+
+
+        //TODO: TO ZMIENIAMY NAZWE PLIKU
+        String filename = "test_data.csv";
+        boolean my_dataset = false; // test dataset
+        if(filename == "test_data.csv") my_dataset = true;
+        int numLinesToSkip = 0;
+        String delimiter = ",";
+        RecordReader recordReader = new CSVRecordReader(numLinesToSkip,delimiter);
+        //TODO: TU ZMIENIAMY SCIEZKE
+        recordReader.initialize(new FileSplit(new File("C:/Users/kwozn/Documents/Projekty/ml/src/main/resources/"+filename)));
+        //recordReader.initialize(new FileSplit(new ClassPathResource("my_dataset.txt").getFile())); // FileNotFound exception
+
+        //Second: the RecordReaderDataSetIterator handles conversion to DataSet objects, ready for use in neural network
+        int labelIndex = 0;
+        int numClasses = 0;
+
+        if(my_dataset){
+            labelIndex = 8;     //5 values in each row of the my_dataset.txt CSV: 4 input features followed by an integer label (class) index. Labels are the 5th value (index 4) in each row
+            numClasses = 2;     //3 classes (types of my_dataset flowers) in the my_dataset data set. Classes have integer values 0, 1 or 2
+            //TODO: TU USTAWIC ROZMIAR WEJSCIA
+            batchSize = 150;    //Data set: 150 examples total. We are loading all of them into one DataSet (not recommended for large data sets)
+        }
+        DataSetIterator iterator = new RecordReaderDataSetIterator(recordReader,batchSize,labelIndex,numClasses);
+        int numInputs = labelIndex;
+
+
+        DataSet allData = iterator.next();
+        allData.shuffle();
+        SplitTestAndTrain testAndTrain = allData.splitTestAndTrain(0.65);  //Use 65% of data for training
+
+        DataSet trainingData = testAndTrain.getTrain();
+        DataSet testData = testAndTrain.getTest();
+
+        //We need to normalize our data. We'll use NormalizeStandardize (which gives us mean 0, unit variance):
+        DataNormalization normalizer = new NormalizerStandardize();
+        normalizer.fit(trainingData);           //Collect the statistics (mean/stdev) from the training data. This does not modify the input data
+        normalizer.transform(trainingData);     //Apply normalization to the training data
+        normalizer.transform(testData);         //Apply normalization to the test data. This is using statistics calculated from the *training* set
 
         /*
             Construct the neural network
@@ -70,28 +133,30 @@ public class LeNetMNIST {
                 .updater(new Adam(1e-3))
                 .list()
                 //Ponizej mamy warstwe wejsciowa
-                .layer(new DenseLayer.Builder()
+                .layer(0,new DenseLayer.Builder()
                         //nIn and nOut specify depth. nIn here is the nChannels and nOut is the number of filters to be applied
                         .nIn(nChannels)
-                        .nOut(nChannels)
+                        .nOut(5)
                         .weightInit(WeightInit.UNIFORM)
                         .activation(Activation.SIGMOID)
                         .build())
                 //Warstwa ukryta
-                .layer(new DenseLayer.Builder()
+                .layer(1,new DenseLayer.Builder()
                         //nIn and nOut specify depth. nIn here is the nChannels and nOut is the number of filters to be applied
                         //Pozwoliłem sobie ustawić 5 neuronow w ukrytej
                         .nIn(5)
                         .nOut(5)
                         //Uniform czyli rozklad gaussa
                         .weightInit(WeightInit.UNIFORM)
-                        .activation(Activation.SIGMOID)
+                        .activation(Activation.RELU)
                         .build())
                 //Warstwa wyjsciowa
-                .layer(new OutputLayer.Builder(LossFunctions.LossFunction.NEGATIVELOGLIKELIHOOD)
+                .layer(2,new OutputLayer.Builder(LossFunctions.LossFunction.NEGATIVELOGLIKELIHOOD)
+                        // No wejść chyba tyle musi być co w poprzedniej warstwie
                         .nIn(5)
                         .nOut(outputNum)
                         .activation(Activation.SOFTMAX)
+                        .weightInit(WeightInit.UNIFORM)
                         .build())
                 .build();
 
@@ -113,8 +178,13 @@ public class LeNetMNIST {
         model.init();
 
         log.info("Train model...");
-        model.setListeners(new ScoreIterationListener(10), new EvaluativeListener(mnistTest, 1, InvocationType.EPOCH_END)); //Print score every 10 iterations and evaluate on test set every epoch
-        model.fit(mnistTrain, nEpochs);
+
+        model.setListeners(new ScoreIterationListener(10)); //Print score every 10 iterations and evaluate on test set every epoch
+        for(int i=0; i<100; i++)
+        {
+            model.fit(trainingData);
+        }
+
 
         String path = FilenameUtils.concat(System.getProperty("java.io.tmpdir"), "test_model.zip");
 

@@ -485,3 +485,879 @@ Saving model to tmp folder: C:\Users\macie\AppData\Local\Temp\lenetmnist.zip
                 
 ****************Example finished********************
 
+2021-05-18 23:40:00,854 - [INFO] - from org.deeplearning4j.examples.sample.LeNetMNIST in main
+                
+Load data....
+
+2021-05-18 23:41:00,182 - [INFO] - from org.deeplearning4j.examples.sample.LeNetMNIST in main
+                
+Load data....
+
+2021-05-18 23:42:36,922 - [INFO] - from org.deeplearning4j.examples.sample.LeNetMNIST in main
+                
+Load data....
+
+2021-05-18 23:42:38,028 - [INFO] - from org.nd4j.linalg.factory.Nd4jBackend in main
+                
+Loaded [CpuBackend] backend
+
+2021-05-18 23:43:26,334 - [INFO] - from org.nd4j.nativeblas.NativeOpsHolder in main
+                
+Number of threads used for linear algebra: 2
+
+2021-05-18 23:43:26,336 - [WARN] - from org.nd4j.linalg.cpu.nativecpu.CpuNDArrayFactory in main
+                
+*********************************** CPU Feature Check Warning ***********************************
+
+2021-05-18 23:43:26,336 - [WARN] - from org.nd4j.linalg.cpu.nativecpu.CpuNDArrayFactory in main
+                
+Warning: Initializing ND4J with Generic x86 binary on a CPU with AVX/AVX2 support
+
+2021-05-18 23:43:26,336 - [WARN] - from org.nd4j.linalg.cpu.nativecpu.CpuNDArrayFactory in main
+                
+Using ND4J with AVX/AVX2 will improve performance. See deeplearning4j.org/cpu for more details
+
+2021-05-18 23:43:26,336 - [WARN] - from org.nd4j.linalg.cpu.nativecpu.CpuNDArrayFactory in main
+                
+Or set environment variable ND4J_IGNORE_AVX=true to suppress this warning
+
+2021-05-18 23:43:26,336 - [WARN] - from org.nd4j.linalg.cpu.nativecpu.CpuNDArrayFactory in main
+                
+*************************************************************************************************
+
+2021-05-18 23:43:33,074 - [INFO] - from org.deeplearning4j.examples.sample.LeNetMNIST in main
+                
+Load data....
+
+2021-05-18 23:43:33,260 - [INFO] - from org.nd4j.linalg.factory.Nd4jBackend in main
+                
+Loaded [CpuBackend] backend
+
+2021-05-18 23:43:36,429 - [INFO] - from org.nd4j.nativeblas.NativeOpsHolder in main
+                
+Number of threads used for linear algebra: 2
+
+2021-05-18 23:43:36,432 - [WARN] - from org.nd4j.linalg.cpu.nativecpu.CpuNDArrayFactory in main
+                
+*********************************** CPU Feature Check Warning ***********************************
+
+2021-05-18 23:43:36,433 - [WARN] - from org.nd4j.linalg.cpu.nativecpu.CpuNDArrayFactory in main
+                
+Warning: Initializing ND4J with Generic x86 binary on a CPU with AVX/AVX2 support
+
+2021-05-18 23:43:36,433 - [WARN] - from org.nd4j.linalg.cpu.nativecpu.CpuNDArrayFactory in main
+                
+Using ND4J with AVX/AVX2 will improve performance. See deeplearning4j.org/cpu for more details
+
+2021-05-18 23:43:36,435 - [WARN] - from org.nd4j.linalg.cpu.nativecpu.CpuNDArrayFactory in main
+                
+Or set environment variable ND4J_IGNORE_AVX=true to suppress this warning
+
+2021-05-18 23:43:36,435 - [WARN] - from org.nd4j.linalg.cpu.nativecpu.CpuNDArrayFactory in main
+                
+*************************************************************************************************
+
+2021-05-18 23:43:37,085 - [INFO] - from org.nd4j.nativeblas.Nd4jBlas in main
+                
+Number of threads used for OpenMP BLAS: 2
+
+2021-05-18 23:43:37,255 - [INFO] - from org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner in main
+                
+Backend used: [CPU]; OS: [Windows 10]
+
+2021-05-18 23:43:37,255 - [INFO] - from org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner in main
+                
+Cores: [4]; Memory: [4,0GB];
+
+2021-05-18 23:43:37,255 - [INFO] - from org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner in main
+                
+Blas vendor: [OPENBLAS]
+
+2021-05-18 23:43:39,080 - [INFO] - from org.deeplearning4j.examples.sample.LeNetMNIST in main
+                
+Build model....
+
+2021-05-18 23:44:11,296 - [INFO] - from org.deeplearning4j.examples.sample.LeNetMNIST in main
+                
+Load data....
+
+2021-05-18 23:44:11,502 - [INFO] - from org.nd4j.linalg.factory.Nd4jBackend in main
+                
+Loaded [CpuBackend] backend
+
+2021-05-18 23:44:14,813 - [INFO] - from org.nd4j.nativeblas.NativeOpsHolder in main
+                
+Number of threads used for linear algebra: 2
+
+2021-05-18 23:44:14,815 - [WARN] - from org.nd4j.linalg.cpu.nativecpu.CpuNDArrayFactory in main
+                
+*********************************** CPU Feature Check Warning ***********************************
+
+2021-05-18 23:44:14,815 - [WARN] - from org.nd4j.linalg.cpu.nativecpu.CpuNDArrayFactory in main
+                
+Warning: Initializing ND4J with Generic x86 binary on a CPU with AVX/AVX2 support
+
+2021-05-18 23:44:14,815 - [WARN] - from org.nd4j.linalg.cpu.nativecpu.CpuNDArrayFactory in main
+                
+Using ND4J with AVX/AVX2 will improve performance. See deeplearning4j.org/cpu for more details
+
+2021-05-18 23:44:14,815 - [WARN] - from org.nd4j.linalg.cpu.nativecpu.CpuNDArrayFactory in main
+                
+Or set environment variable ND4J_IGNORE_AVX=true to suppress this warning
+
+2021-05-18 23:44:14,815 - [WARN] - from org.nd4j.linalg.cpu.nativecpu.CpuNDArrayFactory in main
+                
+*************************************************************************************************
+
+2021-05-18 23:44:15,269 - [INFO] - from org.nd4j.nativeblas.Nd4jBlas in main
+                
+Number of threads used for OpenMP BLAS: 2
+
+2021-05-18 23:44:15,335 - [INFO] - from org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner in main
+                
+Backend used: [CPU]; OS: [Windows 10]
+
+2021-05-18 23:44:15,335 - [INFO] - from org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner in main
+                
+Cores: [4]; Memory: [4,0GB];
+
+2021-05-18 23:44:15,336 - [INFO] - from org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner in main
+                
+Blas vendor: [OPENBLAS]
+
+2021-05-18 23:44:16,388 - [INFO] - from org.deeplearning4j.examples.sample.LeNetMNIST in main
+                
+Build model....
+
+2021-05-18 23:49:48,956 - [INFO] - from org.deeplearning4j.examples.sample.LeNetMNIST in main
+                
+Load data....
+
+2021-05-18 23:49:49,223 - [INFO] - from org.nd4j.linalg.factory.Nd4jBackend in main
+                
+Loaded [CpuBackend] backend
+
+2021-05-18 23:49:52,331 - [INFO] - from org.nd4j.nativeblas.NativeOpsHolder in main
+                
+Number of threads used for linear algebra: 2
+
+2021-05-18 23:49:52,334 - [WARN] - from org.nd4j.linalg.cpu.nativecpu.CpuNDArrayFactory in main
+                
+*********************************** CPU Feature Check Warning ***********************************
+
+2021-05-18 23:49:52,335 - [WARN] - from org.nd4j.linalg.cpu.nativecpu.CpuNDArrayFactory in main
+                
+Warning: Initializing ND4J with Generic x86 binary on a CPU with AVX/AVX2 support
+
+2021-05-18 23:49:52,335 - [WARN] - from org.nd4j.linalg.cpu.nativecpu.CpuNDArrayFactory in main
+                
+Using ND4J with AVX/AVX2 will improve performance. See deeplearning4j.org/cpu for more details
+
+2021-05-18 23:49:52,335 - [WARN] - from org.nd4j.linalg.cpu.nativecpu.CpuNDArrayFactory in main
+                
+Or set environment variable ND4J_IGNORE_AVX=true to suppress this warning
+
+2021-05-18 23:49:52,335 - [WARN] - from org.nd4j.linalg.cpu.nativecpu.CpuNDArrayFactory in main
+                
+*************************************************************************************************
+
+2021-05-18 23:49:52,765 - [INFO] - from org.nd4j.nativeblas.Nd4jBlas in main
+                
+Number of threads used for OpenMP BLAS: 2
+
+2021-05-18 23:49:52,825 - [INFO] - from org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner in main
+                
+Backend used: [CPU]; OS: [Windows 10]
+
+2021-05-18 23:49:52,825 - [INFO] - from org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner in main
+                
+Cores: [4]; Memory: [4,0GB];
+
+2021-05-18 23:49:52,826 - [INFO] - from org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner in main
+                
+Blas vendor: [OPENBLAS]
+
+2021-05-18 23:49:53,803 - [INFO] - from org.deeplearning4j.examples.sample.LeNetMNIST in main
+                
+Build model....
+
+2021-05-18 23:51:01,512 - [INFO] - from org.deeplearning4j.examples.sample.LeNetMNIST in main
+                
+Load data....
+
+2021-05-18 23:51:01,698 - [INFO] - from org.nd4j.linalg.factory.Nd4jBackend in main
+                
+Loaded [CpuBackend] backend
+
+2021-05-18 23:51:04,682 - [INFO] - from org.nd4j.nativeblas.NativeOpsHolder in main
+                
+Number of threads used for linear algebra: 2
+
+2021-05-18 23:51:04,684 - [WARN] - from org.nd4j.linalg.cpu.nativecpu.CpuNDArrayFactory in main
+                
+*********************************** CPU Feature Check Warning ***********************************
+
+2021-05-18 23:51:04,684 - [WARN] - from org.nd4j.linalg.cpu.nativecpu.CpuNDArrayFactory in main
+                
+Warning: Initializing ND4J with Generic x86 binary on a CPU with AVX/AVX2 support
+
+2021-05-18 23:51:04,685 - [WARN] - from org.nd4j.linalg.cpu.nativecpu.CpuNDArrayFactory in main
+                
+Using ND4J with AVX/AVX2 will improve performance. See deeplearning4j.org/cpu for more details
+
+2021-05-18 23:51:04,685 - [WARN] - from org.nd4j.linalg.cpu.nativecpu.CpuNDArrayFactory in main
+                
+Or set environment variable ND4J_IGNORE_AVX=true to suppress this warning
+
+2021-05-18 23:51:04,685 - [WARN] - from org.nd4j.linalg.cpu.nativecpu.CpuNDArrayFactory in main
+                
+*************************************************************************************************
+
+2021-05-18 23:51:05,103 - [INFO] - from org.nd4j.nativeblas.Nd4jBlas in main
+                
+Number of threads used for OpenMP BLAS: 2
+
+2021-05-18 23:51:05,176 - [INFO] - from org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner in main
+                
+Backend used: [CPU]; OS: [Windows 10]
+
+2021-05-18 23:51:05,176 - [INFO] - from org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner in main
+                
+Cores: [4]; Memory: [4,0GB];
+
+2021-05-18 23:51:05,176 - [INFO] - from org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner in main
+                
+Blas vendor: [OPENBLAS]
+
+2021-05-18 23:51:06,294 - [INFO] - from org.deeplearning4j.examples.sample.LeNetMNIST in main
+                
+Build model....
+
+2021-05-18 23:52:11,604 - [INFO] - from org.deeplearning4j.examples.sample.LeNetMNIST in main
+                
+Load data....
+
+2021-05-18 23:52:11,793 - [INFO] - from org.nd4j.linalg.factory.Nd4jBackend in main
+                
+Loaded [CpuBackend] backend
+
+2021-05-18 23:52:14,541 - [INFO] - from org.nd4j.nativeblas.NativeOpsHolder in main
+                
+Number of threads used for linear algebra: 2
+
+2021-05-18 23:52:14,548 - [WARN] - from org.nd4j.linalg.cpu.nativecpu.CpuNDArrayFactory in main
+                
+*********************************** CPU Feature Check Warning ***********************************
+
+2021-05-18 23:52:14,549 - [WARN] - from org.nd4j.linalg.cpu.nativecpu.CpuNDArrayFactory in main
+                
+Warning: Initializing ND4J with Generic x86 binary on a CPU with AVX/AVX2 support
+
+2021-05-18 23:52:14,549 - [WARN] - from org.nd4j.linalg.cpu.nativecpu.CpuNDArrayFactory in main
+                
+Using ND4J with AVX/AVX2 will improve performance. See deeplearning4j.org/cpu for more details
+
+2021-05-18 23:52:14,549 - [WARN] - from org.nd4j.linalg.cpu.nativecpu.CpuNDArrayFactory in main
+                
+Or set environment variable ND4J_IGNORE_AVX=true to suppress this warning
+
+2021-05-18 23:52:14,549 - [WARN] - from org.nd4j.linalg.cpu.nativecpu.CpuNDArrayFactory in main
+                
+*************************************************************************************************
+
+2021-05-18 23:52:14,988 - [INFO] - from org.nd4j.nativeblas.Nd4jBlas in main
+                
+Number of threads used for OpenMP BLAS: 2
+
+2021-05-18 23:52:15,051 - [INFO] - from org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner in main
+                
+Backend used: [CPU]; OS: [Windows 10]
+
+2021-05-18 23:52:15,051 - [INFO] - from org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner in main
+                
+Cores: [4]; Memory: [4,0GB];
+
+2021-05-18 23:52:15,052 - [INFO] - from org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner in main
+                
+Blas vendor: [OPENBLAS]
+
+2021-05-18 23:52:15,989 - [INFO] - from org.deeplearning4j.examples.sample.LeNetMNIST in main
+                
+Build model....
+
+2021-05-18 23:53:03,655 - [INFO] - from org.deeplearning4j.examples.sample.LeNetMNIST in main
+                
+Load data....
+
+2021-05-18 23:53:03,908 - [INFO] - from org.nd4j.linalg.factory.Nd4jBackend in main
+                
+Loaded [CpuBackend] backend
+
+2021-05-18 23:53:06,934 - [INFO] - from org.nd4j.nativeblas.NativeOpsHolder in main
+                
+Number of threads used for linear algebra: 2
+
+2021-05-18 23:53:06,936 - [WARN] - from org.nd4j.linalg.cpu.nativecpu.CpuNDArrayFactory in main
+                
+*********************************** CPU Feature Check Warning ***********************************
+
+2021-05-18 23:53:06,938 - [WARN] - from org.nd4j.linalg.cpu.nativecpu.CpuNDArrayFactory in main
+                
+Warning: Initializing ND4J with Generic x86 binary on a CPU with AVX/AVX2 support
+
+2021-05-18 23:53:06,938 - [WARN] - from org.nd4j.linalg.cpu.nativecpu.CpuNDArrayFactory in main
+                
+Using ND4J with AVX/AVX2 will improve performance. See deeplearning4j.org/cpu for more details
+
+2021-05-18 23:53:06,938 - [WARN] - from org.nd4j.linalg.cpu.nativecpu.CpuNDArrayFactory in main
+                
+Or set environment variable ND4J_IGNORE_AVX=true to suppress this warning
+
+2021-05-18 23:53:06,938 - [WARN] - from org.nd4j.linalg.cpu.nativecpu.CpuNDArrayFactory in main
+                
+*************************************************************************************************
+
+2021-05-18 23:53:07,379 - [INFO] - from org.nd4j.nativeblas.Nd4jBlas in main
+                
+Number of threads used for OpenMP BLAS: 2
+
+2021-05-18 23:53:07,445 - [INFO] - from org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner in main
+                
+Backend used: [CPU]; OS: [Windows 10]
+
+2021-05-18 23:53:07,446 - [INFO] - from org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner in main
+                
+Cores: [4]; Memory: [4,0GB];
+
+2021-05-18 23:53:07,447 - [INFO] - from org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner in main
+                
+Blas vendor: [OPENBLAS]
+
+2021-05-18 23:53:08,401 - [INFO] - from org.deeplearning4j.examples.sample.LeNetMNIST in main
+                
+Build model....
+
+2021-05-18 23:53:30,994 - [INFO] - from org.deeplearning4j.examples.sample.LeNetMNIST in main
+                
+Load data....
+
+2021-05-18 23:53:31,193 - [INFO] - from org.nd4j.linalg.factory.Nd4jBackend in main
+                
+Loaded [CpuBackend] backend
+
+2021-05-18 23:53:34,213 - [INFO] - from org.nd4j.nativeblas.NativeOpsHolder in main
+                
+Number of threads used for linear algebra: 2
+
+2021-05-18 23:53:34,217 - [WARN] - from org.nd4j.linalg.cpu.nativecpu.CpuNDArrayFactory in main
+                
+*********************************** CPU Feature Check Warning ***********************************
+
+2021-05-18 23:53:34,218 - [WARN] - from org.nd4j.linalg.cpu.nativecpu.CpuNDArrayFactory in main
+                
+Warning: Initializing ND4J with Generic x86 binary on a CPU with AVX/AVX2 support
+
+2021-05-18 23:53:34,218 - [WARN] - from org.nd4j.linalg.cpu.nativecpu.CpuNDArrayFactory in main
+                
+Using ND4J with AVX/AVX2 will improve performance. See deeplearning4j.org/cpu for more details
+
+2021-05-18 23:53:34,219 - [WARN] - from org.nd4j.linalg.cpu.nativecpu.CpuNDArrayFactory in main
+                
+Or set environment variable ND4J_IGNORE_AVX=true to suppress this warning
+
+2021-05-18 23:53:34,220 - [WARN] - from org.nd4j.linalg.cpu.nativecpu.CpuNDArrayFactory in main
+                
+*************************************************************************************************
+
+2021-05-18 23:53:34,641 - [INFO] - from org.nd4j.nativeblas.Nd4jBlas in main
+                
+Number of threads used for OpenMP BLAS: 2
+
+2021-05-18 23:53:34,709 - [INFO] - from org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner in main
+                
+Backend used: [CPU]; OS: [Windows 10]
+
+2021-05-18 23:53:34,709 - [INFO] - from org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner in main
+                
+Cores: [4]; Memory: [4,0GB];
+
+2021-05-18 23:53:34,709 - [INFO] - from org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner in main
+                
+Blas vendor: [OPENBLAS]
+
+2021-05-18 23:53:35,797 - [INFO] - from org.deeplearning4j.examples.sample.LeNetMNIST in main
+                
+Build model....
+
+2021-05-18 23:57:19,036 - [INFO] - from org.deeplearning4j.examples.sample.LeNetMNIST in main
+                
+Load data....
+
+2021-05-18 23:57:19,230 - [INFO] - from org.nd4j.linalg.factory.Nd4jBackend in main
+                
+Loaded [CpuBackend] backend
+
+2021-05-18 23:57:22,410 - [INFO] - from org.nd4j.nativeblas.NativeOpsHolder in main
+                
+Number of threads used for linear algebra: 2
+
+2021-05-18 23:57:22,411 - [WARN] - from org.nd4j.linalg.cpu.nativecpu.CpuNDArrayFactory in main
+                
+*********************************** CPU Feature Check Warning ***********************************
+
+2021-05-18 23:57:22,412 - [WARN] - from org.nd4j.linalg.cpu.nativecpu.CpuNDArrayFactory in main
+                
+Warning: Initializing ND4J with Generic x86 binary on a CPU with AVX/AVX2 support
+
+2021-05-18 23:57:22,412 - [WARN] - from org.nd4j.linalg.cpu.nativecpu.CpuNDArrayFactory in main
+                
+Using ND4J with AVX/AVX2 will improve performance. See deeplearning4j.org/cpu for more details
+
+2021-05-18 23:57:22,412 - [WARN] - from org.nd4j.linalg.cpu.nativecpu.CpuNDArrayFactory in main
+                
+Or set environment variable ND4J_IGNORE_AVX=true to suppress this warning
+
+2021-05-18 23:57:22,412 - [WARN] - from org.nd4j.linalg.cpu.nativecpu.CpuNDArrayFactory in main
+                
+*************************************************************************************************
+
+2021-05-18 23:57:22,869 - [INFO] - from org.nd4j.nativeblas.Nd4jBlas in main
+                
+Number of threads used for OpenMP BLAS: 2
+
+2021-05-18 23:57:22,939 - [INFO] - from org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner in main
+                
+Backend used: [CPU]; OS: [Windows 10]
+
+2021-05-18 23:57:22,939 - [INFO] - from org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner in main
+                
+Cores: [4]; Memory: [4,0GB];
+
+2021-05-18 23:57:22,939 - [INFO] - from org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner in main
+                
+Blas vendor: [OPENBLAS]
+
+2021-05-18 23:57:24,016 - [INFO] - from org.deeplearning4j.examples.sample.LeNetMNIST in main
+                
+Build model....
+
+2021-05-18 23:58:21,919 - [INFO] - from org.deeplearning4j.examples.sample.LeNetMNIST in main
+                
+Load data....
+
+2021-05-18 23:58:22,174 - [INFO] - from org.nd4j.linalg.factory.Nd4jBackend in main
+                
+Loaded [CpuBackend] backend
+
+2021-05-18 23:58:25,690 - [INFO] - from org.nd4j.nativeblas.NativeOpsHolder in main
+                
+Number of threads used for linear algebra: 2
+
+2021-05-18 23:58:25,692 - [WARN] - from org.nd4j.linalg.cpu.nativecpu.CpuNDArrayFactory in main
+                
+*********************************** CPU Feature Check Warning ***********************************
+
+2021-05-18 23:58:25,693 - [WARN] - from org.nd4j.linalg.cpu.nativecpu.CpuNDArrayFactory in main
+                
+Warning: Initializing ND4J with Generic x86 binary on a CPU with AVX/AVX2 support
+
+2021-05-18 23:58:25,693 - [WARN] - from org.nd4j.linalg.cpu.nativecpu.CpuNDArrayFactory in main
+                
+Using ND4J with AVX/AVX2 will improve performance. See deeplearning4j.org/cpu for more details
+
+2021-05-18 23:58:25,693 - [WARN] - from org.nd4j.linalg.cpu.nativecpu.CpuNDArrayFactory in main
+                
+Or set environment variable ND4J_IGNORE_AVX=true to suppress this warning
+
+2021-05-18 23:58:25,693 - [WARN] - from org.nd4j.linalg.cpu.nativecpu.CpuNDArrayFactory in main
+                
+*************************************************************************************************
+
+2021-05-18 23:58:26,165 - [INFO] - from org.nd4j.nativeblas.Nd4jBlas in main
+                
+Number of threads used for OpenMP BLAS: 2
+
+2021-05-18 23:58:26,227 - [INFO] - from org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner in main
+                
+Backend used: [CPU]; OS: [Windows 10]
+
+2021-05-18 23:58:26,227 - [INFO] - from org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner in main
+                
+Cores: [4]; Memory: [4,0GB];
+
+2021-05-18 23:58:26,227 - [INFO] - from org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner in main
+                
+Blas vendor: [OPENBLAS]
+
+2021-05-18 23:58:27,225 - [INFO] - from org.deeplearning4j.examples.sample.LeNetMNIST in main
+                
+Build model....
+
+2021-05-18 23:58:43,003 - [INFO] - from org.deeplearning4j.examples.sample.LeNetMNIST in main
+                
+Load data....
+
+2021-05-18 23:58:43,143 - [INFO] - from org.nd4j.linalg.factory.Nd4jBackend in main
+                
+Loaded [CpuBackend] backend
+
+2021-05-18 23:58:46,252 - [INFO] - from org.nd4j.nativeblas.NativeOpsHolder in main
+                
+Number of threads used for linear algebra: 2
+
+2021-05-18 23:58:46,254 - [WARN] - from org.nd4j.linalg.cpu.nativecpu.CpuNDArrayFactory in main
+                
+*********************************** CPU Feature Check Warning ***********************************
+
+2021-05-18 23:58:46,255 - [WARN] - from org.nd4j.linalg.cpu.nativecpu.CpuNDArrayFactory in main
+                
+Warning: Initializing ND4J with Generic x86 binary on a CPU with AVX/AVX2 support
+
+2021-05-18 23:58:46,255 - [WARN] - from org.nd4j.linalg.cpu.nativecpu.CpuNDArrayFactory in main
+                
+Using ND4J with AVX/AVX2 will improve performance. See deeplearning4j.org/cpu for more details
+
+2021-05-18 23:58:46,255 - [WARN] - from org.nd4j.linalg.cpu.nativecpu.CpuNDArrayFactory in main
+                
+Or set environment variable ND4J_IGNORE_AVX=true to suppress this warning
+
+2021-05-18 23:58:46,255 - [WARN] - from org.nd4j.linalg.cpu.nativecpu.CpuNDArrayFactory in main
+                
+*************************************************************************************************
+
+2021-05-18 23:58:46,744 - [INFO] - from org.nd4j.nativeblas.Nd4jBlas in main
+                
+Number of threads used for OpenMP BLAS: 2
+
+2021-05-18 23:58:46,811 - [INFO] - from org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner in main
+                
+Backend used: [CPU]; OS: [Windows 10]
+
+2021-05-18 23:58:46,812 - [INFO] - from org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner in main
+                
+Cores: [4]; Memory: [4,0GB];
+
+2021-05-18 23:58:46,812 - [INFO] - from org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner in main
+                
+Blas vendor: [OPENBLAS]
+
+2021-05-18 23:58:47,889 - [INFO] - from org.deeplearning4j.examples.sample.LeNetMNIST in main
+                
+Build model....
+
+2021-05-18 23:58:48,193 - [INFO] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Starting MultiLayerNetwork with WorkspaceModes set to [training: ENABLED; inference: ENABLED], cacheMode set to [NONE]
+
+2021-05-18 23:58:48,356 - [INFO] - from org.deeplearning4j.examples.sample.LeNetMNIST in main
+                
+Train model...
+
+2021-05-18 23:58:49,037 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 0 is 0.6978150272589366
+
+2021-05-18 23:58:49,038 - [INFO] - from org.deeplearning4j.examples.sample.LeNetMNIST in main
+                
+Saving model to tmp folder: C:\Users\kwozn\AppData\Local\Temp\test_model.zip
+
+2021-05-18 23:58:50,584 - [INFO] - from org.deeplearning4j.examples.sample.LeNetMNIST in main
+                
+****************Example finished********************
+
+2021-05-19 00:06:58,152 - [INFO] - from org.deeplearning4j.examples.sample.LeNetMNIST in main
+                
+Load data....
+
+2021-05-19 00:06:58,306 - [INFO] - from org.nd4j.linalg.factory.Nd4jBackend in main
+                
+Loaded [CpuBackend] backend
+
+2021-05-19 00:07:01,696 - [INFO] - from org.nd4j.nativeblas.NativeOpsHolder in main
+                
+Number of threads used for linear algebra: 2
+
+2021-05-19 00:07:01,698 - [WARN] - from org.nd4j.linalg.cpu.nativecpu.CpuNDArrayFactory in main
+                
+*********************************** CPU Feature Check Warning ***********************************
+
+2021-05-19 00:07:01,699 - [WARN] - from org.nd4j.linalg.cpu.nativecpu.CpuNDArrayFactory in main
+                
+Warning: Initializing ND4J with Generic x86 binary on a CPU with AVX/AVX2 support
+
+2021-05-19 00:07:01,699 - [WARN] - from org.nd4j.linalg.cpu.nativecpu.CpuNDArrayFactory in main
+                
+Using ND4J with AVX/AVX2 will improve performance. See deeplearning4j.org/cpu for more details
+
+2021-05-19 00:07:01,699 - [WARN] - from org.nd4j.linalg.cpu.nativecpu.CpuNDArrayFactory in main
+                
+Or set environment variable ND4J_IGNORE_AVX=true to suppress this warning
+
+2021-05-19 00:07:01,699 - [WARN] - from org.nd4j.linalg.cpu.nativecpu.CpuNDArrayFactory in main
+                
+*************************************************************************************************
+
+2021-05-19 00:07:02,232 - [INFO] - from org.nd4j.nativeblas.Nd4jBlas in main
+                
+Number of threads used for OpenMP BLAS: 2
+
+2021-05-19 00:07:02,306 - [INFO] - from org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner in main
+                
+Backend used: [CPU]; OS: [Windows 10]
+
+2021-05-19 00:07:02,306 - [INFO] - from org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner in main
+                
+Cores: [4]; Memory: [4,0GB];
+
+2021-05-19 00:07:02,307 - [INFO] - from org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner in main
+                
+Blas vendor: [OPENBLAS]
+
+2021-05-19 00:07:03,496 - [INFO] - from org.deeplearning4j.examples.sample.LeNetMNIST in main
+                
+Build model....
+
+2021-05-19 00:07:03,576 - [INFO] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Starting MultiLayerNetwork with WorkspaceModes set to [training: ENABLED; inference: ENABLED], cacheMode set to [NONE]
+
+2021-05-19 00:07:03,606 - [INFO] - from org.deeplearning4j.examples.sample.LeNetMNIST in main
+                
+Train model...
+
+2021-05-19 00:07:03,762 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 0 is 0.6953630027794343
+
+2021-05-19 00:07:03,922 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 10 is 0.6937455769716396
+
+2021-05-19 00:07:04,057 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 20 is 0.6929360548001566
+
+2021-05-19 00:07:04,157 - [INFO] - from org.deeplearning4j.examples.sample.LeNetMNIST in main
+                
+Saving model to tmp folder: C:\Users\kwozn\AppData\Local\Temp\test_model.zip
+
+2021-05-19 00:07:04,522 - [INFO] - from org.deeplearning4j.examples.sample.LeNetMNIST in main
+                
+****************Example finished********************
+
+2021-05-19 00:07:25,094 - [INFO] - from org.deeplearning4j.examples.sample.LeNetMNIST in main
+                
+Load data....
+
+2021-05-19 00:07:25,243 - [INFO] - from org.nd4j.linalg.factory.Nd4jBackend in main
+                
+Loaded [CpuBackend] backend
+
+2021-05-19 00:07:28,587 - [INFO] - from org.nd4j.nativeblas.NativeOpsHolder in main
+                
+Number of threads used for linear algebra: 2
+
+2021-05-19 00:07:28,589 - [WARN] - from org.nd4j.linalg.cpu.nativecpu.CpuNDArrayFactory in main
+                
+*********************************** CPU Feature Check Warning ***********************************
+
+2021-05-19 00:07:28,590 - [WARN] - from org.nd4j.linalg.cpu.nativecpu.CpuNDArrayFactory in main
+                
+Warning: Initializing ND4J with Generic x86 binary on a CPU with AVX/AVX2 support
+
+2021-05-19 00:07:28,591 - [WARN] - from org.nd4j.linalg.cpu.nativecpu.CpuNDArrayFactory in main
+                
+Using ND4J with AVX/AVX2 will improve performance. See deeplearning4j.org/cpu for more details
+
+2021-05-19 00:07:28,591 - [WARN] - from org.nd4j.linalg.cpu.nativecpu.CpuNDArrayFactory in main
+                
+Or set environment variable ND4J_IGNORE_AVX=true to suppress this warning
+
+2021-05-19 00:07:28,591 - [WARN] - from org.nd4j.linalg.cpu.nativecpu.CpuNDArrayFactory in main
+                
+*************************************************************************************************
+
+2021-05-19 00:07:29,099 - [INFO] - from org.nd4j.nativeblas.Nd4jBlas in main
+                
+Number of threads used for OpenMP BLAS: 2
+
+2021-05-19 00:07:29,171 - [INFO] - from org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner in main
+                
+Backend used: [CPU]; OS: [Windows 10]
+
+2021-05-19 00:07:29,171 - [INFO] - from org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner in main
+                
+Cores: [4]; Memory: [4,0GB];
+
+2021-05-19 00:07:29,172 - [INFO] - from org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner in main
+                
+Blas vendor: [OPENBLAS]
+
+2021-05-19 00:07:30,442 - [INFO] - from org.deeplearning4j.examples.sample.LeNetMNIST in main
+                
+Build model....
+
+2021-05-19 00:07:30,530 - [INFO] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Starting MultiLayerNetwork with WorkspaceModes set to [training: ENABLED; inference: ENABLED], cacheMode set to [NONE]
+
+2021-05-19 00:07:30,564 - [INFO] - from org.deeplearning4j.examples.sample.LeNetMNIST in main
+                
+Train model...
+
+2021-05-19 00:07:30,739 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 0 is 0.6972060914603703
+
+2021-05-19 00:07:30,916 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 10 is 0.6949671864054193
+
+2021-05-19 00:07:31,049 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 20 is 0.6931889338584819
+
+2021-05-19 00:07:31,143 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 30 is 0.6918816492000457
+
+2021-05-19 00:07:31,220 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 40 is 0.6911960697131101
+
+2021-05-19 00:07:31,305 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 50 is 0.6906471988410572
+
+2021-05-19 00:07:31,374 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 60 is 0.690166182457899
+
+2021-05-19 00:07:31,435 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 70 is 0.689736131559466
+
+2021-05-19 00:07:31,491 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 80 is 0.6893444867294781
+
+2021-05-19 00:07:31,548 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 90 is 0.6889080754104752
+
+2021-05-19 00:07:31,611 - [INFO] - from org.deeplearning4j.examples.sample.LeNetMNIST in main
+                
+Saving model to tmp folder: C:\Users\kwozn\AppData\Local\Temp\test_model.zip
+
+2021-05-19 00:07:32,069 - [INFO] - from org.deeplearning4j.examples.sample.LeNetMNIST in main
+                
+****************Example finished********************
+
+2021-05-19 00:07:55,815 - [INFO] - from org.deeplearning4j.examples.sample.LeNetMNIST in main
+                
+Load data....
+
+2021-05-19 00:07:56,045 - [INFO] - from org.nd4j.linalg.factory.Nd4jBackend in main
+                
+Loaded [CpuBackend] backend
+
+2021-05-19 00:07:59,927 - [INFO] - from org.nd4j.nativeblas.NativeOpsHolder in main
+                
+Number of threads used for linear algebra: 2
+
+2021-05-19 00:07:59,932 - [WARN] - from org.nd4j.linalg.cpu.nativecpu.CpuNDArrayFactory in main
+                
+*********************************** CPU Feature Check Warning ***********************************
+
+2021-05-19 00:07:59,933 - [WARN] - from org.nd4j.linalg.cpu.nativecpu.CpuNDArrayFactory in main
+                
+Warning: Initializing ND4J with Generic x86 binary on a CPU with AVX/AVX2 support
+
+2021-05-19 00:07:59,934 - [WARN] - from org.nd4j.linalg.cpu.nativecpu.CpuNDArrayFactory in main
+                
+Using ND4J with AVX/AVX2 will improve performance. See deeplearning4j.org/cpu for more details
+
+2021-05-19 00:07:59,934 - [WARN] - from org.nd4j.linalg.cpu.nativecpu.CpuNDArrayFactory in main
+                
+Or set environment variable ND4J_IGNORE_AVX=true to suppress this warning
+
+2021-05-19 00:07:59,934 - [WARN] - from org.nd4j.linalg.cpu.nativecpu.CpuNDArrayFactory in main
+                
+*************************************************************************************************
+
+2021-05-19 00:08:00,534 - [INFO] - from org.nd4j.nativeblas.Nd4jBlas in main
+                
+Number of threads used for OpenMP BLAS: 2
+
+2021-05-19 00:08:00,616 - [INFO] - from org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner in main
+                
+Backend used: [CPU]; OS: [Windows 10]
+
+2021-05-19 00:08:00,616 - [INFO] - from org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner in main
+                
+Cores: [4]; Memory: [4,0GB];
+
+2021-05-19 00:08:00,617 - [INFO] - from org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner in main
+                
+Blas vendor: [OPENBLAS]
+
+2021-05-19 00:08:01,812 - [INFO] - from org.deeplearning4j.examples.sample.LeNetMNIST in main
+                
+Build model....
+
+2021-05-19 00:08:01,893 - [INFO] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Starting MultiLayerNetwork with WorkspaceModes set to [training: ENABLED; inference: ENABLED], cacheMode set to [NONE]
+
+2021-05-19 00:08:01,919 - [INFO] - from org.deeplearning4j.examples.sample.LeNetMNIST in main
+                
+Train model...
+
+2021-05-19 00:08:02,071 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 0 is 0.6962932597945448
+
+2021-05-19 00:08:02,234 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 10 is 0.6943995408388391
+
+2021-05-19 00:08:02,326 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 20 is 0.6935587740504552
+
+2021-05-19 00:08:02,390 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 30 is 0.6931396861897747
+
+2021-05-19 00:08:02,448 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 40 is 0.6927052786923141
+
+2021-05-19 00:08:02,511 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 50 is 0.6922980557036833
+
+2021-05-19 00:08:02,564 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 60 is 0.6918490543703544
+
+2021-05-19 00:08:02,619 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 70 is 0.6912628146260409
+
+2021-05-19 00:08:02,680 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 80 is 0.690385586394799
+
+2021-05-19 00:08:02,726 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 90 is 0.6892565132019158
+
+2021-05-19 00:08:02,759 - [INFO] - from org.deeplearning4j.examples.sample.LeNetMNIST in main
+                
+Saving model to tmp folder: C:\Users\kwozn\AppData\Local\Temp\test_model.zip
+
+2021-05-19 00:08:03,108 - [INFO] - from org.deeplearning4j.examples.sample.LeNetMNIST in main
+                
+****************Example finished********************
+
