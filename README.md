@@ -1,2 +1,2 @@
-# Sample Template Project
-Use this as a minimal starting point for your own projects.
+# ML module
+Machine learning module for detecting community smells
