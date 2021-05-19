@@ -73,20 +73,20 @@ public class LeNetMNIST {
         int outputNum = 2;
         int train_batch = 2;
         int test_batch = 2;
-        int nEpochs = 100;
+        int nEpochs = 30;
         int seed = 123;
 
         log.info("Load data....");
 
 
-        String filename1 = "PDE.csv";
-        String filename2 = "PDE_T.csv";
+        String filename1 = "BCE.csv";
+        String filename2 = "BCE_T.csv";
         boolean my_dataset = false; // test dataset
 
         RecordReader recordReader1 = new CSVRecordReader();
         RecordReader recordReader2 = new CSVRecordReader();
-        recordReader1.initialize(new FileSplit(new File("D:\\PP\\mvn-project-template\\" + filename1)));
-        recordReader2.initialize(new FileSplit(new File("D:\\PP\\mvn-project-template\\" + filename2)));
+        recordReader1.initialize(new FileSplit(new File("C:\\Users\\kwozn\\Documents\\Projekty\\ml\\" + filename1)));
+        recordReader2.initialize(new FileSplit(new File("C:\\Users\\kwozn\\Documents\\Projekty\\ml\\" + filename2)));
 
 
         int labelIndex = 4;
