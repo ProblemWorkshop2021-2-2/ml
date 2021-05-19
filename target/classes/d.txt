@@ -1,0 +1,2419 @@
+
+ Accuracy:        0,4650
+ Precision:       0,0000
+ Recall:          0,0000
+ F1 Score:        0,0000
+Precision, recall & F1: reported for positive class (class 1 - "1") only
+
+Warning: 1 class was never predicted by the model and was excluded from average precision
+Classes excluded from average precision: [1]
+
+=========================Confusion Matrix=========================
+   0   1
+---------
+ 113   0 | 0 = 0
+ 130   0 | 1 = 1
+
+Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
+==================================================================
+o.d.o.l.EvaluativeListener - Starting evaluation nr. 2
+o.d.o.l.EvaluativeListener - Reporting evaluation results:
+o.d.o.l.EvaluativeListener - Evaluation:
+
+
+========================Evaluation Metrics========================
+ # of classes:    2
+ Accuracy:        0,4650
+ Precision:       0,0000
+ Recall:          0,0000
+ F1 Score:        0,0000
+Precision, recall & F1: reported for positive class (class 1 - "1") only
+
+Warning: 1 class was never predicted by the model and was excluded from average precision
+Classes excluded from average precision: [1]
+
+=========================Confusion Matrix=========================
+   0   1
+---------
+ 113   0 | 0 = 0
+ 130   0 | 1 = 1
+
+Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
+==================================================================
+o.d.o.l.EvaluativeListener - Starting evaluation nr. 3
+o.d.o.l.EvaluativeListener - Reporting evaluation results:
+o.d.o.l.EvaluativeListener - Evaluation:
+
+
+========================Evaluation Metrics========================
+ # of classes:    2
+ Accuracy:        0,4650
+ Precision:       0,0000
+ Recall:          0,0000
+ F1 Score:        0,0000
+Precision, recall & F1: reported for positive class (class 1 - "1") only
+
+Warning: 1 class was never predicted by the model and was excluded from average precision
+Classes excluded from average precision: [1]
+
+=========================Confusion Matrix=========================
+   0   1
+---------
+ 113   0 | 0 = 0
+ 130   0 | 1 = 1
+
+Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
+==================================================================
+o.d.o.l.EvaluativeListener - Starting evaluation nr. 4
+o.d.o.l.EvaluativeListener - Reporting evaluation results:
+o.d.o.l.EvaluativeListener - Evaluation:
+
+
+========================Evaluation Metrics========================
+ # of classes:    2
+ Accuracy:        0,4650
+ Precision:       0,0000
+ Recall:          0,0000
+ F1 Score:        0,0000
+Precision, recall & F1: reported for positive class (class 1 - "1") only
+
+Warning: 1 class was never predicted by the model and was excluded from average precision
+Classes excluded from average precision: [1]
+
+=========================Confusion Matrix=========================
+   0   1
+---------
+ 113   0 | 0 = 0
+ 130   0 | 1 = 1
+
+Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
+==================================================================
+o.d.o.l.EvaluativeListener - Starting evaluation nr. 5
+o.d.o.l.EvaluativeListener - Reporting evaluation results:
+o.d.o.l.EvaluativeListener - Evaluation:
+
+
+========================Evaluation Metrics========================
+ # of classes:    2
+ Accuracy:        0,4650
+ Precision:       0,0000
+ Recall:          0,0000
+ F1 Score:        0,0000
+Precision, recall & F1: reported for positive class (class 1 - "1") only
+
+Warning: 1 class was never predicted by the model and was excluded from average precision
+Classes excluded from average precision: [1]
+
+=========================Confusion Matrix=========================
+   0   1
+---------
+ 113   0 | 0 = 0
+ 130   0 | 1 = 1
+
+Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
+==================================================================
+o.d.o.l.EvaluativeListener - Starting evaluation nr. 6
+o.d.o.l.EvaluativeListener - Reporting evaluation results:
+o.d.o.l.EvaluativeListener - Evaluation:
+
+
+========================Evaluation Metrics========================
+ # of classes:    2
+ Accuracy:        0,4650
+ Precision:       0,0000
+ Recall:          0,0000
+ F1 Score:        0,0000
+Precision, recall & F1: reported for positive class (class 1 - "1") only
+
+Warning: 1 class was never predicted by the model and was excluded from average precision
+Classes excluded from average precision: [1]
+
+=========================Confusion Matrix=========================
+   0   1
+---------
+ 113   0 | 0 = 0
+ 130   0 | 1 = 1
+
+Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
+==================================================================
+o.d.o.l.EvaluativeListener - Starting evaluation nr. 7
+o.d.o.l.EvaluativeListener - Reporting evaluation results:
+o.d.o.l.EvaluativeListener - Evaluation:
+
+
+========================Evaluation Metrics========================
+ # of classes:    2
+ Accuracy:        0,4650
+ Precision:       0,0000
+ Recall:          0,0000
+ F1 Score:        0,0000
+Precision, recall & F1: reported for positive class (class 1 - "1") only
+
+Warning: 1 class was never predicted by the model and was excluded from average precision
+Classes excluded from average precision: [1]
+
+=========================Confusion Matrix=========================
+   0   1
+---------
+ 113   0 | 0 = 0
+ 130   0 | 1 = 1
+
+Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
+==================================================================
+o.d.o.l.EvaluativeListener - Starting evaluation nr. 8
+o.d.o.l.EvaluativeListener - Reporting evaluation results:
+o.d.o.l.EvaluativeListener - Evaluation:
+
+
+========================Evaluation Metrics========================
+ # of classes:    2
+ Accuracy:        0,4650
+ Precision:       0,0000
+ Recall:          0,0000
+ F1 Score:        0,0000
+Precision, recall & F1: reported for positive class (class 1 - "1") only
+
+Warning: 1 class was never predicted by the model and was excluded from average precision
+Classes excluded from average precision: [1]
+
+=========================Confusion Matrix=========================
+   0   1
+---------
+ 113   0 | 0 = 0
+ 130   0 | 1 = 1
+
+Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
+==================================================================
+o.d.o.l.EvaluativeListener - Starting evaluation nr. 9
+o.d.o.l.EvaluativeListener - Reporting evaluation results:
+o.d.o.l.EvaluativeListener - Evaluation:
+
+
+========================Evaluation Metrics========================
+ # of classes:    2
+ Accuracy:        0,4650
+ Precision:       0,0000
+ Recall:          0,0000
+ F1 Score:        0,0000
+Precision, recall & F1: reported for positive class (class 1 - "1") only
+
+Warning: 1 class was never predicted by the model and was excluded from average precision
+Classes excluded from average precision: [1]
+
+=========================Confusion Matrix=========================
+   0   1
+---------
+ 113   0 | 0 = 0
+ 130   0 | 1 = 1
+
+Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
+==================================================================
+o.d.o.l.EvaluativeListener - Starting evaluation nr. 10
+o.d.o.l.EvaluativeListener - Reporting evaluation results:
+o.d.o.l.EvaluativeListener - Evaluation:
+
+
+========================Evaluation Metrics========================
+ # of classes:    2
+ Accuracy:        0,4650
+ Precision:       0,0000
+ Recall:          0,0000
+ F1 Score:        0,0000
+Precision, recall & F1: reported for positive class (class 1 - "1") only
+
+Warning: 1 class was never predicted by the model and was excluded from average precision
+Classes excluded from average precision: [1]
+
+=========================Confusion Matrix=========================
+   0   1
+---------
+ 113   0 | 0 = 0
+ 130   0 | 1 = 1
+
+Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
+==================================================================
+o.d.o.l.EvaluativeListener - Starting evaluation nr. 11
+o.d.o.l.EvaluativeListener - Reporting evaluation results:
+o.d.o.l.EvaluativeListener - Evaluation:
+
+
+========================Evaluation Metrics========================
+ # of classes:    2
+ Accuracy:        0,4650
+ Precision:       0,0000
+ Recall:          0,0000
+ F1 Score:        0,0000
+Precision, recall & F1: reported for positive class (class 1 - "1") only
+
+Warning: 1 class was never predicted by the model and was excluded from average precision
+Classes excluded from average precision: [1]
+
+=========================Confusion Matrix=========================
+   0   1
+---------
+ 113   0 | 0 = 0
+ 130   0 | 1 = 1
+
+Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
+==================================================================
+o.d.o.l.EvaluativeListener - Starting evaluation nr. 12
+o.d.o.l.EvaluativeListener - Reporting evaluation results:
+o.d.o.l.EvaluativeListener - Evaluation:
+
+
+========================Evaluation Metrics========================
+ # of classes:    2
+ Accuracy:        0,4650
+ Precision:       0,0000
+ Recall:          0,0000
+ F1 Score:        0,0000
+Precision, recall & F1: reported for positive class (class 1 - "1") only
+
+Warning: 1 class was never predicted by the model and was excluded from average precision
+Classes excluded from average precision: [1]
+
+=========================Confusion Matrix=========================
+   0   1
+---------
+ 113   0 | 0 = 0
+ 130   0 | 1 = 1
+
+Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
+==================================================================
+o.d.o.l.EvaluativeListener - Starting evaluation nr. 13
+o.d.o.l.EvaluativeListener - Reporting evaluation results:
+o.d.o.l.EvaluativeListener - Evaluation:
+
+
+========================Evaluation Metrics========================
+ # of classes:    2
+ Accuracy:        0,4650
+ Precision:       0,0000
+ Recall:          0,0000
+ F1 Score:        0,0000
+Precision, recall & F1: reported for positive class (class 1 - "1") only
+
+Warning: 1 class was never predicted by the model and was excluded from average precision
+Classes excluded from average precision: [1]
+
+=========================Confusion Matrix=========================
+   0   1
+---------
+ 113   0 | 0 = 0
+ 130   0 | 1 = 1
+
+Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
+==================================================================
+o.d.o.l.EvaluativeListener - Starting evaluation nr. 14
+o.d.o.l.EvaluativeListener - Reporting evaluation results:
+o.d.o.l.EvaluativeListener - Evaluation:
+
+
+========================Evaluation Metrics========================
+ # of classes:    2
+ Accuracy:        0,4650
+ Precision:       0,0000
+ Recall:          0,0000
+ F1 Score:        0,0000
+Precision, recall & F1: reported for positive class (class 1 - "1") only
+
+Warning: 1 class was never predicted by the model and was excluded from average precision
+Classes excluded from average precision: [1]
+
+=========================Confusion Matrix=========================
+   0   1
+---------
+ 113   0 | 0 = 0
+ 130   0 | 1 = 1
+
+Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
+==================================================================
+o.d.o.l.EvaluativeListener - Starting evaluation nr. 15
+o.d.o.l.EvaluativeListener - Reporting evaluation results:
+o.d.o.l.EvaluativeListener - Evaluation:
+
+
+========================Evaluation Metrics========================
+ # of classes:    2
+ Accuracy:        0,4650
+ Precision:       0,0000
+ Recall:          0,0000
+ F1 Score:        0,0000
+Precision, recall & F1: reported for positive class (class 1 - "1") only
+
+Warning: 1 class was never predicted by the model and was excluded from average precision
+Classes excluded from average precision: [1]
+
+=========================Confusion Matrix=========================
+   0   1
+---------
+ 113   0 | 0 = 0
+ 130   0 | 1 = 1
+
+Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
+==================================================================
+o.d.o.l.EvaluativeListener - Starting evaluation nr. 16
+o.d.o.l.EvaluativeListener - Reporting evaluation results:
+o.d.o.l.EvaluativeListener - Evaluation:
+
+
+========================Evaluation Metrics========================
+ # of classes:    2
+ Accuracy:        0,4650
+ Precision:       0,0000
+ Recall:          0,0000
+ F1 Score:        0,0000
+Precision, recall & F1: reported for positive class (class 1 - "1") only
+
+Warning: 1 class was never predicted by the model and was excluded from average precision
+Classes excluded from average precision: [1]
+
+=========================Confusion Matrix=========================
+   0   1
+---------
+ 113   0 | 0 = 0
+ 130   0 | 1 = 1
+
+Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
+==================================================================
+o.d.o.l.EvaluativeListener - Starting evaluation nr. 17
+o.d.o.l.EvaluativeListener - Reporting evaluation results:
+o.d.o.l.EvaluativeListener - Evaluation:
+
+
+========================Evaluation Metrics========================
+ # of classes:    2
+ Accuracy:        0,4650
+ Precision:       0,0000
+ Recall:          0,0000
+ F1 Score:        0,0000
+Precision, recall & F1: reported for positive class (class 1 - "1") only
+
+Warning: 1 class was never predicted by the model and was excluded from average precision
+Classes excluded from average precision: [1]
+
+=========================Confusion Matrix=========================
+   0   1
+---------
+ 113   0 | 0 = 0
+ 130   0 | 1 = 1
+
+Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
+==================================================================
+o.d.o.l.EvaluativeListener - Starting evaluation nr. 18
+o.d.o.l.EvaluativeListener - Reporting evaluation results:
+o.d.o.l.EvaluativeListener - Evaluation:
+
+
+========================Evaluation Metrics========================
+ # of classes:    2
+ Accuracy:        0,4650
+ Precision:       0,0000
+ Recall:          0,0000
+ F1 Score:        0,0000
+Precision, recall & F1: reported for positive class (class 1 - "1") only
+
+Warning: 1 class was never predicted by the model and was excluded from average precision
+Classes excluded from average precision: [1]
+
+=========================Confusion Matrix=========================
+   0   1
+---------
+ 113   0 | 0 = 0
+ 130   0 | 1 = 1
+
+Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
+==================================================================
+o.d.o.l.EvaluativeListener - Starting evaluation nr. 19
+o.d.o.l.EvaluativeListener - Reporting evaluation results:
+o.d.o.l.EvaluativeListener - Evaluation:
+
+
+========================Evaluation Metrics========================
+ # of classes:    2
+ Accuracy:        0,4650
+ Precision:       0,0000
+ Recall:          0,0000
+ F1 Score:        0,0000
+Precision, recall & F1: reported for positive class (class 1 - "1") only
+
+Warning: 1 class was never predicted by the model and was excluded from average precision
+Classes excluded from average precision: [1]
+
+=========================Confusion Matrix=========================
+   0   1
+---------
+ 113   0 | 0 = 0
+ 130   0 | 1 = 1
+
+Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
+==================================================================
+o.d.o.l.EvaluativeListener - Starting evaluation nr. 20
+o.d.o.l.EvaluativeListener - Reporting evaluation results:
+o.d.o.l.EvaluativeListener - Evaluation:
+
+
+========================Evaluation Metrics========================
+ # of classes:    2
+ Accuracy:        0,4650
+ Precision:       0,0000
+ Recall:          0,0000
+ F1 Score:        0,0000
+Precision, recall & F1: reported for positive class (class 1 - "1") only
+
+Warning: 1 class was never predicted by the model and was excluded from average precision
+Classes excluded from average precision: [1]
+
+=========================Confusion Matrix=========================
+   0   1
+---------
+ 113   0 | 0 = 0
+ 130   0 | 1 = 1
+
+Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
+==================================================================
+o.d.o.l.EvaluativeListener - Starting evaluation nr. 21
+o.d.o.l.EvaluativeListener - Reporting evaluation results:
+o.d.o.l.EvaluativeListener - Evaluation:
+
+
+========================Evaluation Metrics========================
+ # of classes:    2
+ Accuracy:        0,4650
+ Precision:       0,0000
+ Recall:          0,0000
+ F1 Score:        0,0000
+Precision, recall & F1: reported for positive class (class 1 - "1") only
+
+Warning: 1 class was never predicted by the model and was excluded from average precision
+Classes excluded from average precision: [1]
+
+=========================Confusion Matrix=========================
+   0   1
+---------
+ 113   0 | 0 = 0
+ 130   0 | 1 = 1
+
+Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
+==================================================================
+o.d.o.l.EvaluativeListener - Starting evaluation nr. 22
+o.d.o.l.EvaluativeListener - Reporting evaluation results:
+o.d.o.l.EvaluativeListener - Evaluation:
+
+
+========================Evaluation Metrics========================
+ # of classes:    2
+ Accuracy:        0,4650
+ Precision:       0,0000
+ Recall:          0,0000
+ F1 Score:        0,0000
+Precision, recall & F1: reported for positive class (class 1 - "1") only
+
+Warning: 1 class was never predicted by the model and was excluded from average precision
+Classes excluded from average precision: [1]
+
+=========================Confusion Matrix=========================
+   0   1
+---------
+ 113   0 | 0 = 0
+ 130   0 | 1 = 1
+
+Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
+==================================================================
+o.d.o.l.EvaluativeListener - Starting evaluation nr. 23
+o.d.o.l.EvaluativeListener - Reporting evaluation results:
+o.d.o.l.EvaluativeListener - Evaluation:
+
+
+========================Evaluation Metrics========================
+ # of classes:    2
+ Accuracy:        0,4650
+ Precision:       0,0000
+ Recall:          0,0000
+ F1 Score:        0,0000
+Precision, recall & F1: reported for positive class (class 1 - "1") only
+
+Warning: 1 class was never predicted by the model and was excluded from average precision
+Classes excluded from average precision: [1]
+
+=========================Confusion Matrix=========================
+   0   1
+---------
+ 113   0 | 0 = 0
+ 130   0 | 1 = 1
+
+Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
+==================================================================
+o.d.o.l.EvaluativeListener - Starting evaluation nr. 24
+o.d.o.l.EvaluativeListener - Reporting evaluation results:
+o.d.o.l.EvaluativeListener - Evaluation:
+
+
+========================Evaluation Metrics========================
+ # of classes:    2
+ Accuracy:        0,4650
+ Precision:       0,0000
+ Recall:          0,0000
+ F1 Score:        0,0000
+Precision, recall & F1: reported for positive class (class 1 - "1") only
+
+Warning: 1 class was never predicted by the model and was excluded from average precision
+Classes excluded from average precision: [1]
+
+=========================Confusion Matrix=========================
+   0   1
+---------
+ 113   0 | 0 = 0
+ 130   0 | 1 = 1
+
+Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
+==================================================================
+o.d.o.l.EvaluativeListener - Starting evaluation nr. 25
+o.d.o.l.EvaluativeListener - Reporting evaluation results:
+o.d.o.l.EvaluativeListener - Evaluation:
+
+
+========================Evaluation Metrics========================
+ # of classes:    2
+ Accuracy:        0,4650
+ Precision:       0,0000
+ Recall:          0,0000
+ F1 Score:        0,0000
+Precision, recall & F1: reported for positive class (class 1 - "1") only
+
+Warning: 1 class was never predicted by the model and was excluded from average precision
+Classes excluded from average precision: [1]
+
+=========================Confusion Matrix=========================
+   0   1
+---------
+ 113   0 | 0 = 0
+ 130   0 | 1 = 1
+
+Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
+==================================================================
+o.d.o.l.EvaluativeListener - Starting evaluation nr. 26
+o.d.o.l.EvaluativeListener - Reporting evaluation results:
+o.d.o.l.EvaluativeListener - Evaluation:
+
+
+========================Evaluation Metrics========================
+ # of classes:    2
+ Accuracy:        0,4650
+ Precision:       0,0000
+ Recall:          0,0000
+ F1 Score:        0,0000
+Precision, recall & F1: reported for positive class (class 1 - "1") only
+
+Warning: 1 class was never predicted by the model and was excluded from average precision
+Classes excluded from average precision: [1]
+
+=========================Confusion Matrix=========================
+   0   1
+---------
+ 113   0 | 0 = 0
+ 130   0 | 1 = 1
+
+Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
+==================================================================
+o.d.o.l.EvaluativeListener - Starting evaluation nr. 27
+o.d.o.l.EvaluativeListener - Reporting evaluation results:
+o.d.o.l.EvaluativeListener - Evaluation:
+
+
+========================Evaluation Metrics========================
+ # of classes:    2
+ Accuracy:        0,4650
+ Precision:       0,0000
+ Recall:          0,0000
+ F1 Score:        0,0000
+Precision, recall & F1: reported for positive class (class 1 - "1") only
+
+Warning: 1 class was never predicted by the model and was excluded from average precision
+Classes excluded from average precision: [1]
+
+=========================Confusion Matrix=========================
+   0   1
+---------
+ 113   0 | 0 = 0
+ 130   0 | 1 = 1
+
+Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
+==================================================================
+o.d.o.l.EvaluativeListener - Starting evaluation nr. 28
+o.d.o.l.EvaluativeListener - Reporting evaluation results:
+o.d.o.l.EvaluativeListener - Evaluation:
+
+
+========================Evaluation Metrics========================
+ # of classes:    2
+ Accuracy:        0,4650
+ Precision:       0,0000
+ Recall:          0,0000
+ F1 Score:        0,0000
+Precision, recall & F1: reported for positive class (class 1 - "1") only
+
+Warning: 1 class was never predicted by the model and was excluded from average precision
+Classes excluded from average precision: [1]
+
+=========================Confusion Matrix=========================
+   0   1
+---------
+ 113   0 | 0 = 0
+ 130   0 | 1 = 1
+
+Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
+==================================================================
+o.d.o.l.EvaluativeListener - Starting evaluation nr. 29
+o.d.o.l.EvaluativeListener - Reporting evaluation results:
+o.d.o.l.EvaluativeListener - Evaluation:
+
+
+========================Evaluation Metrics========================
+ # of classes:    2
+ Accuracy:        0,4650
+ Precision:       0,0000
+ Recall:          0,0000
+ F1 Score:        0,0000
+Precision, recall & F1: reported for positive class (class 1 - "1") only
+
+Warning: 1 class was never predicted by the model and was excluded from average precision
+Classes excluded from average precision: [1]
+
+=========================Confusion Matrix=========================
+   0   1
+---------
+ 113   0 | 0 = 0
+ 130   0 | 1 = 1
+
+Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
+==================================================================
+o.d.o.l.EvaluativeListener - Starting evaluation nr. 30
+o.d.o.l.EvaluativeListener - Reporting evaluation results:
+o.d.o.l.EvaluativeListener - Evaluation:
+
+
+========================Evaluation Metrics========================
+ # of classes:    2
+ Accuracy:        0,4650
+ Precision:       0,0000
+ Recall:          0,0000
+ F1 Score:        0,0000
+Precision, recall & F1: reported for positive class (class 1 - "1") only
+
+Warning: 1 class was never predicted by the model and was excluded from average precision
+Classes excluded from average precision: [1]
+
+=========================Confusion Matrix=========================
+   0   1
+---------
+ 113   0 | 0 = 0
+ 130   0 | 1 = 1
+
+Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
+==================================================================
+o.d.o.l.EvaluativeListener - Starting evaluation nr. 31
+o.d.o.l.EvaluativeListener - Reporting evaluation results:
+o.d.o.l.EvaluativeListener - Evaluation:
+
+
+========================Evaluation Metrics========================
+ # of classes:    2
+ Accuracy:        0,4650
+ Precision:       0,0000
+ Recall:          0,0000
+ F1 Score:        0,0000
+Precision, recall & F1: reported for positive class (class 1 - "1") only
+
+Warning: 1 class was never predicted by the model and was excluded from average precision
+Classes excluded from average precision: [1]
+
+=========================Confusion Matrix=========================
+   0   1
+---------
+ 113   0 | 0 = 0
+ 130   0 | 1 = 1
+
+Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
+==================================================================
+o.d.o.l.EvaluativeListener - Starting evaluation nr. 32
+o.d.o.l.EvaluativeListener - Reporting evaluation results:
+o.d.o.l.EvaluativeListener - Evaluation:
+
+
+========================Evaluation Metrics========================
+ # of classes:    2
+ Accuracy:        0,4650
+ Precision:       0,0000
+ Recall:          0,0000
+ F1 Score:        0,0000
+Precision, recall & F1: reported for positive class (class 1 - "1") only
+
+Warning: 1 class was never predicted by the model and was excluded from average precision
+Classes excluded from average precision: [1]
+
+=========================Confusion Matrix=========================
+   0   1
+---------
+ 113   0 | 0 = 0
+ 130   0 | 1 = 1
+
+Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
+==================================================================
+o.d.o.l.EvaluativeListener - Starting evaluation nr. 33
+o.d.o.l.EvaluativeListener - Reporting evaluation results:
+o.d.o.l.EvaluativeListener - Evaluation:
+
+
+========================Evaluation Metrics========================
+ # of classes:    2
+ Accuracy:        0,4650
+ Precision:       0,0000
+ Recall:          0,0000
+ F1 Score:        0,0000
+Precision, recall & F1: reported for positive class (class 1 - "1") only
+
+Warning: 1 class was never predicted by the model and was excluded from average precision
+Classes excluded from average precision: [1]
+
+=========================Confusion Matrix=========================
+   0   1
+---------
+ 113   0 | 0 = 0
+ 130   0 | 1 = 1
+
+Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
+==================================================================
+o.d.o.l.EvaluativeListener - Starting evaluation nr. 34
+o.d.o.l.EvaluativeListener - Reporting evaluation results:
+o.d.o.l.EvaluativeListener - Evaluation:
+
+
+========================Evaluation Metrics========================
+ # of classes:    2
+ Accuracy:        0,4650
+ Precision:       0,0000
+ Recall:          0,0000
+ F1 Score:        0,0000
+Precision, recall & F1: reported for positive class (class 1 - "1") only
+
+Warning: 1 class was never predicted by the model and was excluded from average precision
+Classes excluded from average precision: [1]
+
+=========================Confusion Matrix=========================
+   0   1
+---------
+ 113   0 | 0 = 0
+ 130   0 | 1 = 1
+
+Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
+==================================================================
+o.d.o.l.EvaluativeListener - Starting evaluation nr. 35
+o.d.o.l.EvaluativeListener - Reporting evaluation results:
+o.d.o.l.EvaluativeListener - Evaluation:
+
+
+========================Evaluation Metrics========================
+ # of classes:    2
+ Accuracy:        0,4650
+ Precision:       0,0000
+ Recall:          0,0000
+ F1 Score:        0,0000
+Precision, recall & F1: reported for positive class (class 1 - "1") only
+
+Warning: 1 class was never predicted by the model and was excluded from average precision
+Classes excluded from average precision: [1]
+
+=========================Confusion Matrix=========================
+   0   1
+---------
+ 113   0 | 0 = 0
+ 130   0 | 1 = 1
+
+Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
+==================================================================
+o.d.o.l.EvaluativeListener - Starting evaluation nr. 36
+o.d.o.l.EvaluativeListener - Reporting evaluation results:
+o.d.o.l.EvaluativeListener - Evaluation:
+
+
+========================Evaluation Metrics========================
+ # of classes:    2
+ Accuracy:        0,4650
+ Precision:       0,0000
+ Recall:          0,0000
+ F1 Score:        0,0000
+Precision, recall & F1: reported for positive class (class 1 - "1") only
+
+Warning: 1 class was never predicted by the model and was excluded from average precision
+Classes excluded from average precision: [1]
+
+=========================Confusion Matrix=========================
+   0   1
+---------
+ 113   0 | 0 = 0
+ 130   0 | 1 = 1
+
+Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
+==================================================================
+o.d.o.l.EvaluativeListener - Starting evaluation nr. 37
+o.d.o.l.EvaluativeListener - Reporting evaluation results:
+o.d.o.l.EvaluativeListener - Evaluation:
+
+
+========================Evaluation Metrics========================
+ # of classes:    2
+ Accuracy:        0,4650
+ Precision:       0,0000
+ Recall:          0,0000
+ F1 Score:        0,0000
+Precision, recall & F1: reported for positive class (class 1 - "1") only
+
+Warning: 1 class was never predicted by the model and was excluded from average precision
+Classes excluded from average precision: [1]
+
+=========================Confusion Matrix=========================
+   0   1
+---------
+ 113   0 | 0 = 0
+ 130   0 | 1 = 1
+
+Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
+==================================================================
+o.d.o.l.EvaluativeListener - Starting evaluation nr. 38
+o.d.o.l.EvaluativeListener - Reporting evaluation results:
+o.d.o.l.EvaluativeListener - Evaluation:
+
+
+========================Evaluation Metrics========================
+ # of classes:    2
+ Accuracy:        0,4650
+ Precision:       0,0000
+ Recall:          0,0000
+ F1 Score:        0,0000
+Precision, recall & F1: reported for positive class (class 1 - "1") only
+
+Warning: 1 class was never predicted by the model and was excluded from average precision
+Classes excluded from average precision: [1]
+
+=========================Confusion Matrix=========================
+   0   1
+---------
+ 113   0 | 0 = 0
+ 130   0 | 1 = 1
+
+Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
+==================================================================
+o.d.o.l.EvaluativeListener - Starting evaluation nr. 39
+o.d.o.l.EvaluativeListener - Reporting evaluation results:
+o.d.o.l.EvaluativeListener - Evaluation:
+
+
+========================Evaluation Metrics========================
+ # of classes:    2
+ Accuracy:        0,4650
+ Precision:       0,0000
+ Recall:          0,0000
+ F1 Score:        0,0000
+Precision, recall & F1: reported for positive class (class 1 - "1") only
+
+Warning: 1 class was never predicted by the model and was excluded from average precision
+Classes excluded from average precision: [1]
+
+=========================Confusion Matrix=========================
+   0   1
+---------
+ 113   0 | 0 = 0
+ 130   0 | 1 = 1
+
+Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
+==================================================================
+o.d.o.l.EvaluativeListener - Starting evaluation nr. 40
+o.d.o.l.EvaluativeListener - Reporting evaluation results:
+o.d.o.l.EvaluativeListener - Evaluation:
+
+
+========================Evaluation Metrics========================
+ # of classes:    2
+ Accuracy:        0,4650
+ Precision:       0,0000
+ Recall:          0,0000
+ F1 Score:        0,0000
+Precision, recall & F1: reported for positive class (class 1 - "1") only
+
+Warning: 1 class was never predicted by the model and was excluded from average precision
+Classes excluded from average precision: [1]
+
+=========================Confusion Matrix=========================
+   0   1
+---------
+ 113   0 | 0 = 0
+ 130   0 | 1 = 1
+
+Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
+==================================================================
+o.d.o.l.EvaluativeListener - Starting evaluation nr. 41
+o.d.o.l.EvaluativeListener - Reporting evaluation results:
+o.d.o.l.EvaluativeListener - Evaluation:
+
+
+========================Evaluation Metrics========================
+ # of classes:    2
+ Accuracy:        0,4650
+ Precision:       0,0000
+ Recall:          0,0000
+ F1 Score:        0,0000
+Precision, recall & F1: reported for positive class (class 1 - "1") only
+
+Warning: 1 class was never predicted by the model and was excluded from average precision
+Classes excluded from average precision: [1]
+
+=========================Confusion Matrix=========================
+   0   1
+---------
+ 113   0 | 0 = 0
+ 130   0 | 1 = 1
+
+Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
+==================================================================
+o.d.o.l.EvaluativeListener - Starting evaluation nr. 42
+o.d.o.l.EvaluativeListener - Reporting evaluation results:
+o.d.o.l.EvaluativeListener - Evaluation:
+
+
+========================Evaluation Metrics========================
+ # of classes:    2
+ Accuracy:        0,4650
+ Precision:       0,0000
+ Recall:          0,0000
+ F1 Score:        0,0000
+Precision, recall & F1: reported for positive class (class 1 - "1") only
+
+Warning: 1 class was never predicted by the model and was excluded from average precision
+Classes excluded from average precision: [1]
+
+=========================Confusion Matrix=========================
+   0   1
+---------
+ 113   0 | 0 = 0
+ 130   0 | 1 = 1
+
+Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
+==================================================================
+o.d.o.l.EvaluativeListener - Starting evaluation nr. 43
+o.d.o.l.EvaluativeListener - Reporting evaluation results:
+o.d.o.l.EvaluativeListener - Evaluation:
+
+
+========================Evaluation Metrics========================
+ # of classes:    2
+ Accuracy:        0,4650
+ Precision:       0,0000
+ Recall:          0,0000
+ F1 Score:        0,0000
+Precision, recall & F1: reported for positive class (class 1 - "1") only
+
+Warning: 1 class was never predicted by the model and was excluded from average precision
+Classes excluded from average precision: [1]
+
+=========================Confusion Matrix=========================
+   0   1
+---------
+ 113   0 | 0 = 0
+ 130   0 | 1 = 1
+
+Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
+==================================================================
+o.d.o.l.EvaluativeListener - Starting evaluation nr. 44
+o.d.o.l.EvaluativeListener - Reporting evaluation results:
+o.d.o.l.EvaluativeListener - Evaluation:
+
+
+========================Evaluation Metrics========================
+ # of classes:    2
+ Accuracy:        0,4650
+ Precision:       0,0000
+ Recall:          0,0000
+ F1 Score:        0,0000
+Precision, recall & F1: reported for positive class (class 1 - "1") only
+
+Warning: 1 class was never predicted by the model and was excluded from average precision
+Classes excluded from average precision: [1]
+
+=========================Confusion Matrix=========================
+   0   1
+---------
+ 113   0 | 0 = 0
+ 130   0 | 1 = 1
+
+Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
+==================================================================
+o.d.o.l.EvaluativeListener - Starting evaluation nr. 45
+o.d.o.l.EvaluativeListener - Reporting evaluation results:
+o.d.o.l.EvaluativeListener - Evaluation:
+
+
+========================Evaluation Metrics========================
+ # of classes:    2
+ Accuracy:        0,4650
+ Precision:       0,0000
+ Recall:          0,0000
+ F1 Score:        0,0000
+Precision, recall & F1: reported for positive class (class 1 - "1") only
+
+Warning: 1 class was never predicted by the model and was excluded from average precision
+Classes excluded from average precision: [1]
+
+=========================Confusion Matrix=========================
+   0   1
+---------
+ 113   0 | 0 = 0
+ 130   0 | 1 = 1
+
+Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
+==================================================================
+o.d.o.l.EvaluativeListener - Starting evaluation nr. 46
+o.d.o.l.EvaluativeListener - Reporting evaluation results:
+o.d.o.l.EvaluativeListener - Evaluation:
+
+
+========================Evaluation Metrics========================
+ # of classes:    2
+ Accuracy:        0,4650
+ Precision:       0,0000
+ Recall:          0,0000
+ F1 Score:        0,0000
+Precision, recall & F1: reported for positive class (class 1 - "1") only
+
+Warning: 1 class was never predicted by the model and was excluded from average precision
+Classes excluded from average precision: [1]
+
+=========================Confusion Matrix=========================
+   0   1
+---------
+ 113   0 | 0 = 0
+ 130   0 | 1 = 1
+
+Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
+==================================================================
+o.d.o.l.EvaluativeListener - Starting evaluation nr. 47
+o.d.o.l.EvaluativeListener - Reporting evaluation results:
+o.d.o.l.EvaluativeListener - Evaluation:
+
+
+========================Evaluation Metrics========================
+ # of classes:    2
+ Accuracy:        0,4650
+ Precision:       0,0000
+ Recall:          0,0000
+ F1 Score:        0,0000
+Precision, recall & F1: reported for positive class (class 1 - "1") only
+
+Warning: 1 class was never predicted by the model and was excluded from average precision
+Classes excluded from average precision: [1]
+
+=========================Confusion Matrix=========================
+   0   1
+---------
+ 113   0 | 0 = 0
+ 130   0 | 1 = 1
+
+Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
+==================================================================
+o.d.o.l.EvaluativeListener - Starting evaluation nr. 48
+o.d.o.l.EvaluativeListener - Reporting evaluation results:
+o.d.o.l.EvaluativeListener - Evaluation:
+
+
+========================Evaluation Metrics========================
+ # of classes:    2
+ Accuracy:        0,4650
+ Precision:       0,0000
+ Recall:          0,0000
+ F1 Score:        0,0000
+Precision, recall & F1: reported for positive class (class 1 - "1") only
+
+Warning: 1 class was never predicted by the model and was excluded from average precision
+Classes excluded from average precision: [1]
+
+=========================Confusion Matrix=========================
+   0   1
+---------
+ 113   0 | 0 = 0
+ 130   0 | 1 = 1
+
+Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
+==================================================================
+o.d.o.l.EvaluativeListener - Starting evaluation nr. 49
+o.d.o.l.EvaluativeListener - Reporting evaluation results:
+o.d.o.l.EvaluativeListener - Evaluation:
+
+
+========================Evaluation Metrics========================
+ # of classes:    2
+ Accuracy:        0,4650
+ Precision:       0,0000
+ Recall:          0,0000
+ F1 Score:        0,0000
+Precision, recall & F1: reported for positive class (class 1 - "1") only
+
+Warning: 1 class was never predicted by the model and was excluded from average precision
+Classes excluded from average precision: [1]
+
+=========================Confusion Matrix=========================
+   0   1
+---------
+ 113   0 | 0 = 0
+ 130   0 | 1 = 1
+
+Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
+==================================================================
+o.d.o.l.EvaluativeListener - Starting evaluation nr. 50
+o.d.o.l.EvaluativeListener - Reporting evaluation results:
+o.d.o.l.EvaluativeListener - Evaluation:
+
+
+========================Evaluation Metrics========================
+ # of classes:    2
+ Accuracy:        0,4650
+ Precision:       0,0000
+ Recall:          0,0000
+ F1 Score:        0,0000
+Precision, recall & F1: reported for positive class (class 1 - "1") only
+
+Warning: 1 class was never predicted by the model and was excluded from average precision
+Classes excluded from average precision: [1]
+
+=========================Confusion Matrix=========================
+   0   1
+---------
+ 113   0 | 0 = 0
+ 130   0 | 1 = 1
+
+Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
+==================================================================
+o.d.o.l.EvaluativeListener - Starting evaluation nr. 51
+o.d.o.l.EvaluativeListener - Reporting evaluation results:
+o.d.o.l.EvaluativeListener - Evaluation:
+
+
+========================Evaluation Metrics========================
+ # of classes:    2
+ Accuracy:        0,4650
+ Precision:       0,0000
+ Recall:          0,0000
+ F1 Score:        0,0000
+Precision, recall & F1: reported for positive class (class 1 - "1") only
+
+Warning: 1 class was never predicted by the model and was excluded from average precision
+Classes excluded from average precision: [1]
+
+=========================Confusion Matrix=========================
+   0   1
+---------
+ 113   0 | 0 = 0
+ 130   0 | 1 = 1
+
+Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
+==================================================================
+o.d.o.l.EvaluativeListener - Starting evaluation nr. 52
+o.d.o.l.EvaluativeListener - Reporting evaluation results:
+o.d.o.l.EvaluativeListener - Evaluation:
+
+
+========================Evaluation Metrics========================
+ # of classes:    2
+ Accuracy:        0,4650
+ Precision:       0,0000
+ Recall:          0,0000
+ F1 Score:        0,0000
+Precision, recall & F1: reported for positive class (class 1 - "1") only
+
+Warning: 1 class was never predicted by the model and was excluded from average precision
+Classes excluded from average precision: [1]
+
+=========================Confusion Matrix=========================
+   0   1
+---------
+ 113   0 | 0 = 0
+ 130   0 | 1 = 1
+
+Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
+==================================================================
+o.d.o.l.EvaluativeListener - Starting evaluation nr. 53
+o.d.o.l.EvaluativeListener - Reporting evaluation results:
+o.d.o.l.EvaluativeListener - Evaluation:
+
+
+========================Evaluation Metrics========================
+ # of classes:    2
+ Accuracy:        0,4650
+ Precision:       0,0000
+ Recall:          0,0000
+ F1 Score:        0,0000
+Precision, recall & F1: reported for positive class (class 1 - "1") only
+
+Warning: 1 class was never predicted by the model and was excluded from average precision
+Classes excluded from average precision: [1]
+
+=========================Confusion Matrix=========================
+   0   1
+---------
+ 113   0 | 0 = 0
+ 130   0 | 1 = 1
+
+Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
+==================================================================
+o.d.o.l.EvaluativeListener - Starting evaluation nr. 54
+o.d.o.l.EvaluativeListener - Reporting evaluation results:
+o.d.o.l.EvaluativeListener - Evaluation:
+
+
+========================Evaluation Metrics========================
+ # of classes:    2
+ Accuracy:        0,4650
+ Precision:       0,0000
+ Recall:          0,0000
+ F1 Score:        0,0000
+Precision, recall & F1: reported for positive class (class 1 - "1") only
+
+Warning: 1 class was never predicted by the model and was excluded from average precision
+Classes excluded from average precision: [1]
+
+=========================Confusion Matrix=========================
+   0   1
+---------
+ 113   0 | 0 = 0
+ 130   0 | 1 = 1
+
+Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
+==================================================================
+o.d.o.l.EvaluativeListener - Starting evaluation nr. 55
+o.d.o.l.EvaluativeListener - Reporting evaluation results:
+o.d.o.l.EvaluativeListener - Evaluation:
+
+
+========================Evaluation Metrics========================
+ # of classes:    2
+ Accuracy:        0,4650
+ Precision:       0,0000
+ Recall:          0,0000
+ F1 Score:        0,0000
+Precision, recall & F1: reported for positive class (class 1 - "1") only
+
+Warning: 1 class was never predicted by the model and was excluded from average precision
+Classes excluded from average precision: [1]
+
+=========================Confusion Matrix=========================
+   0   1
+---------
+ 113   0 | 0 = 0
+ 130   0 | 1 = 1
+
+Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
+==================================================================
+o.d.o.l.EvaluativeListener - Starting evaluation nr. 56
+o.d.o.l.EvaluativeListener - Reporting evaluation results:
+o.d.o.l.EvaluativeListener - Evaluation:
+
+
+========================Evaluation Metrics========================
+ # of classes:    2
+ Accuracy:        0,4650
+ Precision:       0,0000
+ Recall:          0,0000
+ F1 Score:        0,0000
+Precision, recall & F1: reported for positive class (class 1 - "1") only
+
+Warning: 1 class was never predicted by the model and was excluded from average precision
+Classes excluded from average precision: [1]
+
+=========================Confusion Matrix=========================
+   0   1
+---------
+ 113   0 | 0 = 0
+ 130   0 | 1 = 1
+
+Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
+==================================================================
+o.d.o.l.EvaluativeListener - Starting evaluation nr. 57
+o.d.o.l.EvaluativeListener - Reporting evaluation results:
+o.d.o.l.EvaluativeListener - Evaluation:
+
+
+========================Evaluation Metrics========================
+ # of classes:    2
+ Accuracy:        0,4650
+ Precision:       0,0000
+ Recall:          0,0000
+ F1 Score:        0,0000
+Precision, recall & F1: reported for positive class (class 1 - "1") only
+
+Warning: 1 class was never predicted by the model and was excluded from average precision
+Classes excluded from average precision: [1]
+
+=========================Confusion Matrix=========================
+   0   1
+---------
+ 113   0 | 0 = 0
+ 130   0 | 1 = 1
+
+Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
+==================================================================
+o.d.o.l.EvaluativeListener - Starting evaluation nr. 58
+o.d.o.l.EvaluativeListener - Reporting evaluation results:
+o.d.o.l.EvaluativeListener - Evaluation:
+
+
+========================Evaluation Metrics========================
+ # of classes:    2
+ Accuracy:        0,4650
+ Precision:       0,0000
+ Recall:          0,0000
+ F1 Score:        0,0000
+Precision, recall & F1: reported for positive class (class 1 - "1") only
+
+Warning: 1 class was never predicted by the model and was excluded from average precision
+Classes excluded from average precision: [1]
+
+=========================Confusion Matrix=========================
+   0   1
+---------
+ 113   0 | 0 = 0
+ 130   0 | 1 = 1
+
+Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
+==================================================================
+o.d.o.l.EvaluativeListener - Starting evaluation nr. 59
+o.d.o.l.EvaluativeListener - Reporting evaluation results:
+o.d.o.l.EvaluativeListener - Evaluation:
+
+
+========================Evaluation Metrics========================
+ # of classes:    2
+ Accuracy:        0,4650
+ Precision:       0,0000
+ Recall:          0,0000
+ F1 Score:        0,0000
+Precision, recall & F1: reported for positive class (class 1 - "1") only
+
+Warning: 1 class was never predicted by the model and was excluded from average precision
+Classes excluded from average precision: [1]
+
+=========================Confusion Matrix=========================
+   0   1
+---------
+ 113   0 | 0 = 0
+ 130   0 | 1 = 1
+
+Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
+==================================================================
+o.d.o.l.EvaluativeListener - Starting evaluation nr. 60
+o.d.o.l.EvaluativeListener - Reporting evaluation results:
+o.d.o.l.EvaluativeListener - Evaluation:
+
+
+========================Evaluation Metrics========================
+ # of classes:    2
+ Accuracy:        0,4650
+ Precision:       0,0000
+ Recall:          0,0000
+ F1 Score:        0,0000
+Precision, recall & F1: reported for positive class (class 1 - "1") only
+
+Warning: 1 class was never predicted by the model and was excluded from average precision
+Classes excluded from average precision: [1]
+
+=========================Confusion Matrix=========================
+   0   1
+---------
+ 113   0 | 0 = 0
+ 130   0 | 1 = 1
+
+Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
+==================================================================
+o.d.o.l.EvaluativeListener - Starting evaluation nr. 61
+o.d.o.l.EvaluativeListener - Reporting evaluation results:
+o.d.o.l.EvaluativeListener - Evaluation:
+
+
+========================Evaluation Metrics========================
+ # of classes:    2
+ Accuracy:        0,4650
+ Precision:       0,0000
+ Recall:          0,0000
+ F1 Score:        0,0000
+Precision, recall & F1: reported for positive class (class 1 - "1") only
+
+Warning: 1 class was never predicted by the model and was excluded from average precision
+Classes excluded from average precision: [1]
+
+=========================Confusion Matrix=========================
+   0   1
+---------
+ 113   0 | 0 = 0
+ 130   0 | 1 = 1
+
+Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
+==================================================================
+o.d.o.l.EvaluativeListener - Starting evaluation nr. 62
+o.d.o.l.EvaluativeListener - Reporting evaluation results:
+o.d.o.l.EvaluativeListener - Evaluation:
+
+
+========================Evaluation Metrics========================
+ # of classes:    2
+ Accuracy:        0,4650
+ Precision:       0,0000
+ Recall:          0,0000
+ F1 Score:        0,0000
+Precision, recall & F1: reported for positive class (class 1 - "1") only
+
+Warning: 1 class was never predicted by the model and was excluded from average precision
+Classes excluded from average precision: [1]
+
+=========================Confusion Matrix=========================
+   0   1
+---------
+ 113   0 | 0 = 0
+ 130   0 | 1 = 1
+
+Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
+==================================================================
+o.d.o.l.EvaluativeListener - Starting evaluation nr. 63
+o.d.o.l.EvaluativeListener - Reporting evaluation results:
+o.d.o.l.EvaluativeListener - Evaluation:
+
+
+========================Evaluation Metrics========================
+ # of classes:    2
+ Accuracy:        0,4650
+ Precision:       0,0000
+ Recall:          0,0000
+ F1 Score:        0,0000
+Precision, recall & F1: reported for positive class (class 1 - "1") only
+
+Warning: 1 class was never predicted by the model and was excluded from average precision
+Classes excluded from average precision: [1]
+
+=========================Confusion Matrix=========================
+   0   1
+---------
+ 113   0 | 0 = 0
+ 130   0 | 1 = 1
+
+Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
+==================================================================
+o.d.o.l.EvaluativeListener - Starting evaluation nr. 64
+o.d.o.l.EvaluativeListener - Reporting evaluation results:
+o.d.o.l.EvaluativeListener - Evaluation:
+
+
+========================Evaluation Metrics========================
+ # of classes:    2
+ Accuracy:        0,4650
+ Precision:       0,0000
+ Recall:          0,0000
+ F1 Score:        0,0000
+Precision, recall & F1: reported for positive class (class 1 - "1") only
+
+Warning: 1 class was never predicted by the model and was excluded from average precision
+Classes excluded from average precision: [1]
+
+=========================Confusion Matrix=========================
+   0   1
+---------
+ 113   0 | 0 = 0
+ 130   0 | 1 = 1
+
+Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
+==================================================================
+o.d.o.l.EvaluativeListener - Starting evaluation nr. 65
+o.d.o.l.EvaluativeListener - Reporting evaluation results:
+o.d.o.l.EvaluativeListener - Evaluation:
+
+
+========================Evaluation Metrics========================
+ # of classes:    2
+ Accuracy:        0,4650
+ Precision:       0,0000
+ Recall:          0,0000
+ F1 Score:        0,0000
+Precision, recall & F1: reported for positive class (class 1 - "1") only
+
+Warning: 1 class was never predicted by the model and was excluded from average precision
+Classes excluded from average precision: [1]
+
+=========================Confusion Matrix=========================
+   0   1
+---------
+ 113   0 | 0 = 0
+ 130   0 | 1 = 1
+
+Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
+==================================================================
+o.d.o.l.EvaluativeListener - Starting evaluation nr. 66
+o.d.o.l.EvaluativeListener - Reporting evaluation results:
+o.d.o.l.EvaluativeListener - Evaluation:
+
+
+========================Evaluation Metrics========================
+ # of classes:    2
+ Accuracy:        0,4650
+ Precision:       0,0000
+ Recall:          0,0000
+ F1 Score:        0,0000
+Precision, recall & F1: reported for positive class (class 1 - "1") only
+
+Warning: 1 class was never predicted by the model and was excluded from average precision
+Classes excluded from average precision: [1]
+
+=========================Confusion Matrix=========================
+   0   1
+---------
+ 113   0 | 0 = 0
+ 130   0 | 1 = 1
+
+Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
+==================================================================
+o.d.o.l.EvaluativeListener - Starting evaluation nr. 67
+o.d.o.l.EvaluativeListener - Reporting evaluation results:
+o.d.o.l.EvaluativeListener - Evaluation:
+
+
+========================Evaluation Metrics========================
+ # of classes:    2
+ Accuracy:        0,4650
+ Precision:       0,0000
+ Recall:          0,0000
+ F1 Score:        0,0000
+Precision, recall & F1: reported for positive class (class 1 - "1") only
+
+Warning: 1 class was never predicted by the model and was excluded from average precision
+Classes excluded from average precision: [1]
+
+=========================Confusion Matrix=========================
+   0   1
+---------
+ 113   0 | 0 = 0
+ 130   0 | 1 = 1
+
+Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
+==================================================================
+o.d.o.l.EvaluativeListener - Starting evaluation nr. 68
+o.d.o.l.EvaluativeListener - Reporting evaluation results:
+o.d.o.l.EvaluativeListener - Evaluation:
+
+
+========================Evaluation Metrics========================
+ # of classes:    2
+ Accuracy:        0,4650
+ Precision:       0,0000
+ Recall:          0,0000
+ F1 Score:        0,0000
+Precision, recall & F1: reported for positive class (class 1 - "1") only
+
+Warning: 1 class was never predicted by the model and was excluded from average precision
+Classes excluded from average precision: [1]
+
+=========================Confusion Matrix=========================
+   0   1
+---------
+ 113   0 | 0 = 0
+ 130   0 | 1 = 1
+
+Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
+==================================================================
+o.d.o.l.EvaluativeListener - Starting evaluation nr. 69
+o.d.o.l.EvaluativeListener - Reporting evaluation results:
+o.d.o.l.EvaluativeListener - Evaluation:
+
+
+========================Evaluation Metrics========================
+ # of classes:    2
+ Accuracy:        0,4650
+ Precision:       0,0000
+ Recall:          0,0000
+ F1 Score:        0,0000
+Precision, recall & F1: reported for positive class (class 1 - "1") only
+
+Warning: 1 class was never predicted by the model and was excluded from average precision
+Classes excluded from average precision: [1]
+
+=========================Confusion Matrix=========================
+   0   1
+---------
+ 113   0 | 0 = 0
+ 130   0 | 1 = 1
+
+Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
+==================================================================
+o.d.o.l.EvaluativeListener - Starting evaluation nr. 70
+o.d.o.l.EvaluativeListener - Reporting evaluation results:
+o.d.o.l.EvaluativeListener - Evaluation:
+
+
+========================Evaluation Metrics========================
+ # of classes:    2
+ Accuracy:        0,4650
+ Precision:       0,0000
+ Recall:          0,0000
+ F1 Score:        0,0000
+Precision, recall & F1: reported for positive class (class 1 - "1") only
+
+Warning: 1 class was never predicted by the model and was excluded from average precision
+Classes excluded from average precision: [1]
+
+=========================Confusion Matrix=========================
+   0   1
+---------
+ 113   0 | 0 = 0
+ 130   0 | 1 = 1
+
+Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
+==================================================================
+o.d.o.l.EvaluativeListener - Starting evaluation nr. 71
+o.d.o.l.EvaluativeListener - Reporting evaluation results:
+o.d.o.l.EvaluativeListener - Evaluation:
+
+
+========================Evaluation Metrics========================
+ # of classes:    2
+ Accuracy:        0,4650
+ Precision:       0,0000
+ Recall:          0,0000
+ F1 Score:        0,0000
+Precision, recall & F1: reported for positive class (class 1 - "1") only
+
+Warning: 1 class was never predicted by the model and was excluded from average precision
+Classes excluded from average precision: [1]
+
+=========================Confusion Matrix=========================
+   0   1
+---------
+ 113   0 | 0 = 0
+ 130   0 | 1 = 1
+
+Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
+==================================================================
+o.d.o.l.EvaluativeListener - Starting evaluation nr. 72
+o.d.o.l.EvaluativeListener - Reporting evaluation results:
+o.d.o.l.EvaluativeListener - Evaluation:
+
+
+========================Evaluation Metrics========================
+ # of classes:    2
+ Accuracy:        0,4650
+ Precision:       0,0000
+ Recall:          0,0000
+ F1 Score:        0,0000
+Precision, recall & F1: reported for positive class (class 1 - "1") only
+
+Warning: 1 class was never predicted by the model and was excluded from average precision
+Classes excluded from average precision: [1]
+
+=========================Confusion Matrix=========================
+   0   1
+---------
+ 113   0 | 0 = 0
+ 130   0 | 1 = 1
+
+Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
+==================================================================
+o.d.o.l.EvaluativeListener - Starting evaluation nr. 73
+o.d.o.l.EvaluativeListener - Reporting evaluation results:
+o.d.o.l.EvaluativeListener - Evaluation:
+
+
+========================Evaluation Metrics========================
+ # of classes:    2
+ Accuracy:        0,4650
+ Precision:       0,0000
+ Recall:          0,0000
+ F1 Score:        0,0000
+Precision, recall & F1: reported for positive class (class 1 - "1") only
+
+Warning: 1 class was never predicted by the model and was excluded from average precision
+Classes excluded from average precision: [1]
+
+=========================Confusion Matrix=========================
+   0   1
+---------
+ 113   0 | 0 = 0
+ 130   0 | 1 = 1
+
+Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
+==================================================================
+o.d.o.l.EvaluativeListener - Starting evaluation nr. 74
+o.d.o.l.EvaluativeListener - Reporting evaluation results:
+o.d.o.l.EvaluativeListener - Evaluation:
+
+
+========================Evaluation Metrics========================
+ # of classes:    2
+ Accuracy:        0,4650
+ Precision:       0,0000
+ Recall:          0,0000
+ F1 Score:        0,0000
+Precision, recall & F1: reported for positive class (class 1 - "1") only
+
+Warning: 1 class was never predicted by the model and was excluded from average precision
+Classes excluded from average precision: [1]
+
+=========================Confusion Matrix=========================
+   0   1
+---------
+ 113   0 | 0 = 0
+ 130   0 | 1 = 1
+
+Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
+==================================================================
+o.d.o.l.EvaluativeListener - Starting evaluation nr. 75
+o.d.o.l.EvaluativeListener - Reporting evaluation results:
+o.d.o.l.EvaluativeListener - Evaluation:
+
+
+========================Evaluation Metrics========================
+ # of classes:    2
+ Accuracy:        0,4650
+ Precision:       0,0000
+ Recall:          0,0000
+ F1 Score:        0,0000
+Precision, recall & F1: reported for positive class (class 1 - "1") only
+
+Warning: 1 class was never predicted by the model and was excluded from average precision
+Classes excluded from average precision: [1]
+
+=========================Confusion Matrix=========================
+   0   1
+---------
+ 113   0 | 0 = 0
+ 130   0 | 1 = 1
+
+Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
+==================================================================
+o.d.o.l.EvaluativeListener - Starting evaluation nr. 76
+o.d.o.l.EvaluativeListener - Reporting evaluation results:
+o.d.o.l.EvaluativeListener - Evaluation:
+
+
+========================Evaluation Metrics========================
+ # of classes:    2
+ Accuracy:        0,4650
+ Precision:       0,0000
+ Recall:          0,0000
+ F1 Score:        0,0000
+Precision, recall & F1: reported for positive class (class 1 - "1") only
+
+Warning: 1 class was never predicted by the model and was excluded from average precision
+Classes excluded from average precision: [1]
+
+=========================Confusion Matrix=========================
+   0   1
+---------
+ 113   0 | 0 = 0
+ 130   0 | 1 = 1
+
+Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
+==================================================================
+o.d.o.l.EvaluativeListener - Starting evaluation nr. 77
+o.d.o.l.EvaluativeListener - Reporting evaluation results:
+o.d.o.l.EvaluativeListener - Evaluation:
+
+
+========================Evaluation Metrics========================
+ # of classes:    2
+ Accuracy:        0,4650
+ Precision:       0,0000
+ Recall:          0,0000
+ F1 Score:        0,0000
+Precision, recall & F1: reported for positive class (class 1 - "1") only
+
+Warning: 1 class was never predicted by the model and was excluded from average precision
+Classes excluded from average precision: [1]
+
+=========================Confusion Matrix=========================
+   0   1
+---------
+ 113   0 | 0 = 0
+ 130   0 | 1 = 1
+
+Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
+==================================================================
+o.d.o.l.EvaluativeListener - Starting evaluation nr. 78
+o.d.o.l.EvaluativeListener - Reporting evaluation results:
+o.d.o.l.EvaluativeListener - Evaluation:
+
+
+========================Evaluation Metrics========================
+ # of classes:    2
+ Accuracy:        0,4650
+ Precision:       0,0000
+ Recall:          0,0000
+ F1 Score:        0,0000
+Precision, recall & F1: reported for positive class (class 1 - "1") only
+
+Warning: 1 class was never predicted by the model and was excluded from average precision
+Classes excluded from average precision: [1]
+
+=========================Confusion Matrix=========================
+   0   1
+---------
+ 113   0 | 0 = 0
+ 130   0 | 1 = 1
+
+Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
+==================================================================
+o.d.o.l.EvaluativeListener - Starting evaluation nr. 79
+o.d.o.l.EvaluativeListener - Reporting evaluation results:
+o.d.o.l.EvaluativeListener - Evaluation:
+
+
+========================Evaluation Metrics========================
+ # of classes:    2
+ Accuracy:        0,4650
+ Precision:       0,0000
+ Recall:          0,0000
+ F1 Score:        0,0000
+Precision, recall & F1: reported for positive class (class 1 - "1") only
+
+Warning: 1 class was never predicted by the model and was excluded from average precision
+Classes excluded from average precision: [1]
+
+=========================Confusion Matrix=========================
+   0   1
+---------
+ 113   0 | 0 = 0
+ 130   0 | 1 = 1
+
+Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
+==================================================================
+o.d.o.l.EvaluativeListener - Starting evaluation nr. 80
+o.d.o.l.EvaluativeListener - Reporting evaluation results:
+o.d.o.l.EvaluativeListener - Evaluation:
+
+
+========================Evaluation Metrics========================
+ # of classes:    2
+ Accuracy:        0,4650
+ Precision:       0,0000
+ Recall:          0,0000
+ F1 Score:        0,0000
+Precision, recall & F1: reported for positive class (class 1 - "1") only
+
+Warning: 1 class was never predicted by the model and was excluded from average precision
+Classes excluded from average precision: [1]
+
+=========================Confusion Matrix=========================
+   0   1
+---------
+ 113   0 | 0 = 0
+ 130   0 | 1 = 1
+
+Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
+==================================================================
+o.d.o.l.EvaluativeListener - Starting evaluation nr. 81
+o.d.o.l.EvaluativeListener - Reporting evaluation results:
+o.d.o.l.EvaluativeListener - Evaluation:
+
+
+========================Evaluation Metrics========================
+ # of classes:    2
+ Accuracy:        0,4650
+ Precision:       0,0000
+ Recall:          0,0000
+ F1 Score:        0,0000
+Precision, recall & F1: reported for positive class (class 1 - "1") only
+
+Warning: 1 class was never predicted by the model and was excluded from average precision
+Classes excluded from average precision: [1]
+
+=========================Confusion Matrix=========================
+   0   1
+---------
+ 113   0 | 0 = 0
+ 130   0 | 1 = 1
+
+Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
+==================================================================
+o.d.o.l.EvaluativeListener - Starting evaluation nr. 82
+o.d.o.l.EvaluativeListener - Reporting evaluation results:
+o.d.o.l.EvaluativeListener - Evaluation:
+
+
+========================Evaluation Metrics========================
+ # of classes:    2
+ Accuracy:        0,4650
+ Precision:       0,0000
+ Recall:          0,0000
+ F1 Score:        0,0000
+Precision, recall & F1: reported for positive class (class 1 - "1") only
+
+Warning: 1 class was never predicted by the model and was excluded from average precision
+Classes excluded from average precision: [1]
+
+=========================Confusion Matrix=========================
+   0   1
+---------
+ 113   0 | 0 = 0
+ 130   0 | 1 = 1
+
+Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
+==================================================================
+o.d.o.l.EvaluativeListener - Starting evaluation nr. 83
+o.d.o.l.EvaluativeListener - Reporting evaluation results:
+o.d.o.l.EvaluativeListener - Evaluation:
+
+
+========================Evaluation Metrics========================
+ # of classes:    2
+ Accuracy:        0,4650
+ Precision:       0,0000
+ Recall:          0,0000
+ F1 Score:        0,0000
+Precision, recall & F1: reported for positive class (class 1 - "1") only
+
+Warning: 1 class was never predicted by the model and was excluded from average precision
+Classes excluded from average precision: [1]
+
+=========================Confusion Matrix=========================
+   0   1
+---------
+ 113   0 | 0 = 0
+ 130   0 | 1 = 1
+
+Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
+==================================================================
+o.d.o.l.EvaluativeListener - Starting evaluation nr. 84
+o.d.o.l.EvaluativeListener - Reporting evaluation results:
+o.d.o.l.EvaluativeListener - Evaluation:
+
+
+========================Evaluation Metrics========================
+ # of classes:    2
+ Accuracy:        0,4650
+ Precision:       0,0000
+ Recall:          0,0000
+ F1 Score:        0,0000
+Precision, recall & F1: reported for positive class (class 1 - "1") only
+
+Warning: 1 class was never predicted by the model and was excluded from average precision
+Classes excluded from average precision: [1]
+
+=========================Confusion Matrix=========================
+   0   1
+---------
+ 113   0 | 0 = 0
+ 130   0 | 1 = 1
+
+Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
+==================================================================
+o.d.o.l.EvaluativeListener - Starting evaluation nr. 85
+o.d.o.l.EvaluativeListener - Reporting evaluation results:
+o.d.o.l.EvaluativeListener - Evaluation:
+
+
+========================Evaluation Metrics========================
+ # of classes:    2
+ Accuracy:        0,4650
+ Precision:       0,0000
+ Recall:          0,0000
+ F1 Score:        0,0000
+Precision, recall & F1: reported for positive class (class 1 - "1") only
+
+Warning: 1 class was never predicted by the model and was excluded from average precision
+Classes excluded from average precision: [1]
+
+=========================Confusion Matrix=========================
+   0   1
+---------
+ 113   0 | 0 = 0
+ 130   0 | 1 = 1
+
+Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
+==================================================================
+o.d.o.l.EvaluativeListener - Starting evaluation nr. 86
+o.d.o.l.EvaluativeListener - Reporting evaluation results:
+o.d.o.l.EvaluativeListener - Evaluation:
+
+
+========================Evaluation Metrics========================
+ # of classes:    2
+ Accuracy:        0,4650
+ Precision:       0,0000
+ Recall:          0,0000
+ F1 Score:        0,0000
+Precision, recall & F1: reported for positive class (class 1 - "1") only
+
+Warning: 1 class was never predicted by the model and was excluded from average precision
+Classes excluded from average precision: [1]
+
+=========================Confusion Matrix=========================
+   0   1
+---------
+ 113   0 | 0 = 0
+ 130   0 | 1 = 1
+
+Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
+==================================================================
+o.d.o.l.EvaluativeListener - Starting evaluation nr. 87
+o.d.o.l.EvaluativeListener - Reporting evaluation results:
+o.d.o.l.EvaluativeListener - Evaluation:
+
+
+========================Evaluation Metrics========================
+ # of classes:    2
+ Accuracy:        0,4650
+ Precision:       0,0000
+ Recall:          0,0000
+ F1 Score:        0,0000
+Precision, recall & F1: reported for positive class (class 1 - "1") only
+
+Warning: 1 class was never predicted by the model and was excluded from average precision
+Classes excluded from average precision: [1]
+
+=========================Confusion Matrix=========================
+   0   1
+---------
+ 113   0 | 0 = 0
+ 130   0 | 1 = 1
+
+Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
+==================================================================
+o.d.o.l.EvaluativeListener - Starting evaluation nr. 88
+o.d.o.l.EvaluativeListener - Reporting evaluation results:
+o.d.o.l.EvaluativeListener - Evaluation:
+
+
+========================Evaluation Metrics========================
+ # of classes:    2
+ Accuracy:        0,4650
+ Precision:       0,0000
+ Recall:          0,0000
+ F1 Score:        0,0000
+Precision, recall & F1: reported for positive class (class 1 - "1") only
+
+Warning: 1 class was never predicted by the model and was excluded from average precision
+Classes excluded from average precision: [1]
+
+=========================Confusion Matrix=========================
+   0   1
+---------
+ 113   0 | 0 = 0
+ 130   0 | 1 = 1
+
+Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
+==================================================================
+o.d.o.l.EvaluativeListener - Starting evaluation nr. 89
+o.d.o.l.EvaluativeListener - Reporting evaluation results:
+o.d.o.l.EvaluativeListener - Evaluation:
+
+
+========================Evaluation Metrics========================
+ # of classes:    2
+ Accuracy:        0,4650
+ Precision:       0,0000
+ Recall:          0,0000
+ F1 Score:        0,0000
+Precision, recall & F1: reported for positive class (class 1 - "1") only
+
+Warning: 1 class was never predicted by the model and was excluded from average precision
+Classes excluded from average precision: [1]
+
+=========================Confusion Matrix=========================
+   0   1
+---------
+ 113   0 | 0 = 0
+ 130   0 | 1 = 1
+
+Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
+==================================================================
+o.d.o.l.EvaluativeListener - Starting evaluation nr. 90
+o.d.o.l.EvaluativeListener - Reporting evaluation results:
+o.d.o.l.EvaluativeListener - Evaluation:
+
+
+========================Evaluation Metrics========================
+ # of classes:    2
+ Accuracy:        0,4650
+ Precision:       0,0000
+ Recall:          0,0000
+ F1 Score:        0,0000
+Precision, recall & F1: reported for positive class (class 1 - "1") only
+
+Warning: 1 class was never predicted by the model and was excluded from average precision
+Classes excluded from average precision: [1]
+
+=========================Confusion Matrix=========================
+   0   1
+---------
+ 113   0 | 0 = 0
+ 130   0 | 1 = 1
+
+Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
+==================================================================
+o.d.o.l.EvaluativeListener - Starting evaluation nr. 91
+o.d.o.l.EvaluativeListener - Reporting evaluation results:
+o.d.o.l.EvaluativeListener - Evaluation:
+
+
+========================Evaluation Metrics========================
+ # of classes:    2
+ Accuracy:        0,4650
+ Precision:       0,0000
+ Recall:          0,0000
+ F1 Score:        0,0000
+Precision, recall & F1: reported for positive class (class 1 - "1") only
+
+Warning: 1 class was never predicted by the model and was excluded from average precision
+Classes excluded from average precision: [1]
+
+=========================Confusion Matrix=========================
+   0   1
+---------
+ 113   0 | 0 = 0
+ 130   0 | 1 = 1
+
+Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
+==================================================================
+o.d.o.l.EvaluativeListener - Starting evaluation nr. 92
+o.d.o.l.EvaluativeListener - Reporting evaluation results:
+o.d.o.l.EvaluativeListener - Evaluation:
+
+
+========================Evaluation Metrics========================
+ # of classes:    2
+ Accuracy:        0,4650
+ Precision:       0,0000
+ Recall:          0,0000
+ F1 Score:        0,0000
+Precision, recall & F1: reported for positive class (class 1 - "1") only
+
+Warning: 1 class was never predicted by the model and was excluded from average precision
+Classes excluded from average precision: [1]
+
+=========================Confusion Matrix=========================
+   0   1
+---------
+ 113   0 | 0 = 0
+ 130   0 | 1 = 1
+
+Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
+==================================================================
+o.d.o.l.EvaluativeListener - Starting evaluation nr. 93
+o.d.o.l.EvaluativeListener - Reporting evaluation results:
+o.d.o.l.EvaluativeListener - Evaluation:
+
+
+========================Evaluation Metrics========================
+ # of classes:    2
+ Accuracy:        0,4650
+ Precision:       0,0000
+ Recall:          0,0000
+ F1 Score:        0,0000
+Precision, recall & F1: reported for positive class (class 1 - "1") only
+
+Warning: 1 class was never predicted by the model and was excluded from average precision
+Classes excluded from average precision: [1]
+
+=========================Confusion Matrix=========================
+   0   1
+---------
+ 113   0 | 0 = 0
+ 130   0 | 1 = 1
+
+Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
+==================================================================
+o.d.o.l.EvaluativeListener - Starting evaluation nr. 94
+o.d.o.l.EvaluativeListener - Reporting evaluation results:
+o.d.o.l.EvaluativeListener - Evaluation:
+
+
+========================Evaluation Metrics========================
+ # of classes:    2
+ Accuracy:        0,4650
+ Precision:       0,0000
+ Recall:          0,0000
+ F1 Score:        0,0000
+Precision, recall & F1: reported for positive class (class 1 - "1") only
+
+Warning: 1 class was never predicted by the model and was excluded from average precision
+Classes excluded from average precision: [1]
+
+=========================Confusion Matrix=========================
+   0   1
+---------
+ 113   0 | 0 = 0
+ 130   0 | 1 = 1
+
+Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
+==================================================================
+o.d.o.l.EvaluativeListener - Starting evaluation nr. 95
+o.d.o.l.EvaluativeListener - Reporting evaluation results:
+o.d.o.l.EvaluativeListener - Evaluation:
+
+
+========================Evaluation Metrics========================
+ # of classes:    2
+ Accuracy:        0,4650
+ Precision:       0,0000
+ Recall:          0,0000
+ F1 Score:        0,0000
+Precision, recall & F1: reported for positive class (class 1 - "1") only
+
+Warning: 1 class was never predicted by the model and was excluded from average precision
+Classes excluded from average precision: [1]
+
+=========================Confusion Matrix=========================
+   0   1
+---------
+ 113   0 | 0 = 0
+ 130   0 | 1 = 1
+
+Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
+==================================================================
+o.d.o.l.EvaluativeListener - Starting evaluation nr. 96
+o.d.o.l.EvaluativeListener - Reporting evaluation results:
+o.d.o.l.EvaluativeListener - Evaluation:
+
+
+========================Evaluation Metrics========================
+ # of classes:    2
+ Accuracy:        0,4650
+ Precision:       0,0000
+ Recall:          0,0000
+ F1 Score:        0,0000
+Precision, recall & F1: reported for positive class (class 1 - "1") only
+
+Warning: 1 class was never predicted by the model and was excluded from average precision
+Classes excluded from average precision: [1]
+
+=========================Confusion Matrix=========================
+   0   1
+---------
+ 113   0 | 0 = 0
+ 130   0 | 1 = 1
+
+Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
+==================================================================
+o.d.o.l.EvaluativeListener - Starting evaluation nr. 97
+o.d.o.l.EvaluativeListener - Reporting evaluation results:
+o.d.o.l.EvaluativeListener - Evaluation:
+
+
+========================Evaluation Metrics========================
+ # of classes:    2
+ Accuracy:        0,4650
+ Precision:       0,0000
+ Recall:          0,0000
+ F1 Score:        0,0000
+Precision, recall & F1: reported for positive class (class 1 - "1") only
+
+Warning: 1 class was never predicted by the model and was excluded from average precision
+Classes excluded from average precision: [1]
+
+=========================Confusion Matrix=========================
+   0   1
+---------
+ 113   0 | 0 = 0
+ 130   0 | 1 = 1
+
+Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
+==================================================================
+o.d.o.l.EvaluativeListener - Starting evaluation nr. 98
+o.d.o.l.EvaluativeListener - Reporting evaluation results:
+o.d.o.l.EvaluativeListener - Evaluation:
+
+
+========================Evaluation Metrics========================
+ # of classes:    2
+ Accuracy:        0,4650
+ Precision:       0,0000
+ Recall:          0,0000
+ F1 Score:        0,0000
+Precision, recall & F1: reported for positive class (class 1 - "1") only
+
+Warning: 1 class was never predicted by the model and was excluded from average precision
+Classes excluded from average precision: [1]
+
+=========================Confusion Matrix=========================
+   0   1
+---------
+ 113   0 | 0 = 0
+ 130   0 | 1 = 1
+
+Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
+==================================================================
+o.d.o.l.EvaluativeListener - Starting evaluation nr. 99
+o.d.o.l.EvaluativeListener - Reporting evaluation results:
+o.d.o.l.EvaluativeListener - Evaluation:
+
+
+========================Evaluation Metrics========================
+ # of classes:    2
+ Accuracy:        0,4650
+ Precision:       0,0000
+ Recall:          0,0000
+ F1 Score:        0,0000
+Precision, recall & F1: reported for positive class (class 1 - "1") only
+
+Warning: 1 class was never predicted by the model and was excluded from average precision
+Classes excluded from average precision: [1]
+
+=========================Confusion Matrix=========================
+   0   1
+---------
+ 113   0 | 0 = 0
+ 130   0 | 1 = 1
+
+Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
+==================================================================
+o.d.o.l.EvaluativeListener - Starting evaluation nr. 100
+o.d.o.l.EvaluativeListener - Reporting evaluation results:
+o.d.o.l.EvaluativeListener - Evaluation:
+
+
+========================Evaluation Metrics========================
+ # of classes:    2
+ Accuracy:        0,4650
+ Precision:       0,0000
+ Recall:          0,0000
+ F1 Score:        0,0000
+Precision, recall & F1: reported for positive class (class 1 - "1") only
+
+Warning: 1 class was never predicted by the model and was excluded from average precision
+Classes excluded from average precision: [1]
+
+=========================Confusion Matrix=========================
+   0   1
+---------
+ 113   0 | 0 = 0
+ 130   0 | 1 = 1
+
+Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
+==================================================================
+o.d.e.s.LeNetMNIST - Saving model to tmp folder: C:\Users\macie\AppData\Local\Temp\test_model.zip
+
+
+========================Evaluation Metrics========================
+ # of classes:    2
+ Accuracy:        0,5366
+ Precision:       0,0000
+ Recall:          0,0000
+ F1 Score:        0,0000
+Precision, recall & F1: reported for positive class (class 1 - "1") only
+
+Warning: 1 class was never predicted by the model and was excluded from average precision
+Classes excluded from average precision: [1]
+
+=========================Confusion Matrix=========================
+  0  1
+-------
+ 22  0 | 0 = 0
+ 19  0 | 1 = 1
+
+Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
+==================================================================
+o.d.e.s.LeNetMNIST - ****************Example finished********************
+
+Process finished with exit code 0
