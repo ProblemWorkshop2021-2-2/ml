@@ -17,6 +17,7 @@
 package org.deeplearning4j.examples.sample;
 
 import org.apache.commons.io.FilenameUtils;
+import org.deeplearning4j.core.storage.StatsStorage;
 import org.deeplearning4j.nn.conf.MultiLayerConfiguration;
 import org.deeplearning4j.nn.conf.NeuralNetConfiguration;
 import org.deeplearning4j.nn.multilayer.MultiLayerNetwork;
@@ -24,6 +25,9 @@ import org.deeplearning4j.nn.weights.WeightInit;
 import org.deeplearning4j.optimize.api.InvocationType;
 import org.deeplearning4j.optimize.listeners.EvaluativeListener;
 import org.deeplearning4j.optimize.listeners.ScoreIterationListener;
+import org.deeplearning4j.ui.api.UIServer;
+import org.deeplearning4j.ui.model.stats.StatsListener;
+import org.deeplearning4j.ui.model.storage.InMemoryStatsStorage;
 import org.nd4j.evaluation.classification.Evaluation;
 import org.nd4j.linalg.activations.Activation;
 import org.nd4j.linalg.dataset.api.iterator.DataSetIterator;
@@ -48,6 +52,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import java.io.File;
+import java.util.Scanner;
 
 /**
  * Created by agibsonccc on 9/16/15.
@@ -56,6 +61,18 @@ public class LeNetMNIST {
     private static final Logger log = LoggerFactory.getLogger(LeNetMNIST.class);
 
     public static void main(String[] args) throws Exception {
+
+
+        //Initialize the user interface backend
+        UIServer uiServer = UIServer.getInstance();
+
+        //Configure where the network information (gradients, score vs. time etc) is to be stored. Here: store in memory.
+        StatsStorage statsStorage = new InMemoryStatsStorage();         //Alternative: new FileStatsStorage(File), for saving and loading later
+
+        //Attach the StatsStorage instance to the UI: this allows the contents of the StatsStorage to be visualized
+        uiServer.attach(statsStorage);
+
+        //Then add the StatsListener to collect this information from the network, as it trains
 
 
         int nChannels = 8; // Number of input channels
@@ -91,9 +108,9 @@ public class LeNetMNIST {
         RecordReader recordReader1 = new CSVRecordReader();
         RecordReader recordReader2 = new CSVRecordReader();
         //TODO: TU ZMIENIAMY SCIEZKE
-        recordReader1.initialize(new FileSplit(new File("C:/Users/kwozn/Documents/Projekty/ml/src/main/resources/"+filename1)));
+        recordReader1.initialize(new FileSplit(new File("D:\\PP\\mvn-project-template\\src\\main\\resources\\"+filename1)));
         //recordReader.initialize(new FileSplit(new ClassPathResource("my_dataset.txt").getFile())); // FileNotFound exception
-        recordReader2.initialize(new FileSplit(new File("C:/Users/kwozn/Documents/Projekty/ml/src/main/resources/"+filename2)));
+        recordReader2.initialize(new FileSplit(new File("D:\\PP\\mvn-project-template\\src\\main\\resources\\"+filename2)));
 
 
         //Second: the RecordReaderDataSetIterator handles conversion to DataSet objects, ready for use in neural network
@@ -131,7 +148,7 @@ public class LeNetMNIST {
         MultiLayerConfiguration conf = new NeuralNetConfiguration.Builder()
                 .seed(seed)
                // .weightInit(WeightInit.XAVIER)
-                .updater(new Nesterovs(0.2,0.9))
+                .updater(new Nesterovs(0.2,0.5))
                 .list()
                 //Ponizej mamy warstwe wejsciowa
                 .layer(0,new DenseLayer.Builder()
@@ -180,8 +197,8 @@ public class LeNetMNIST {
 
         log.info("Train model...");
 
-        model.setListeners(new ScoreIterationListener(10),new MyEvaluativeListener(train_iterator,1, InvocationType.EPOCH_END)); //Print score every 10 iterations and evaluate on test set every epoch
-
+        model.setListeners(new MyEvaluativeListener(train_iterator,1, InvocationType.EPOCH_END)); //Print score every 10 iterations and evaluate on test set every epoch
+        model.setListeners(new StatsListener(statsStorage));
         System.out.println(train_iterator.toString());
 
         model.fit(train_iterator,100);
@@ -196,5 +213,8 @@ public class LeNetMNIST {
         model.save(new File(path), true);
 
         log.info("****************Example finished********************");
+
+
+        new Scanner(System.in).nextInt();
     }
 }

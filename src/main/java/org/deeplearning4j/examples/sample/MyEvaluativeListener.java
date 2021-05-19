@@ -5,6 +5,7 @@ import org.deeplearning4j.optimize.api.InvocationType;
 import org.deeplearning4j.optimize.listeners.EvaluativeListener;
 import org.deeplearning4j.optimize.listeners.callbacks.EvaluationCallback;
 import org.nd4j.evaluation.IEvaluation;
+import org.nd4j.evaluation.classification.Evaluation;
 import org.nd4j.linalg.api.ndarray.INDArray;
 import org.nd4j.linalg.dataset.DataSet;
 import org.nd4j.linalg.dataset.MultiDataSet;
@@ -32,13 +33,6 @@ public class MyEvaluativeListener extends EvaluativeListener {
     @Override
     public void onEpochEnd(Model model) {
         super.onEpochEnd(model);
-        try {
-            System.out.println(Paths.get("wyniki.txt"));
-            Files.write(Paths.get("wyniki.txt"), ((Double) model.score()).toString().getBytes(), StandardOpenOption.APPEND);
-        }catch (IOException e) {
-            //exception handling left as an exercise for the reader
-        }
-
     }
 
     @Override
@@ -54,6 +48,7 @@ public class MyEvaluativeListener extends EvaluativeListener {
     @Override
     public IEvaluation[] getEvaluations() {
         return super.getEvaluations();
+
     }
 
     @Override
