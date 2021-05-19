@@ -27,6 +27,7 @@ import org.deeplearning4j.optimize.listeners.EvaluativeListener;
 import org.deeplearning4j.optimize.listeners.ScoreIterationListener;
 import org.deeplearning4j.ui.api.UIServer;
 import org.deeplearning4j.ui.model.stats.StatsListener;
+import org.deeplearning4j.ui.model.storage.FileStatsStorage;
 import org.deeplearning4j.ui.model.storage.InMemoryStatsStorage;
 import org.nd4j.evaluation.classification.Evaluation;
 import org.nd4j.linalg.activations.Activation;
@@ -54,123 +55,77 @@ import org.slf4j.LoggerFactory;
 import java.io.File;
 import java.util.Scanner;
 
-/**
- * Created by agibsonccc on 9/16/15.
- */
+
 public class LeNetMNIST {
     private static final Logger log = LoggerFactory.getLogger(LeNetMNIST.class);
 
     public static void main(String[] args) throws Exception {
 
 
-        //Initialize the user interface backend
         UIServer uiServer = UIServer.getInstance();
 
-        //Configure where the network information (gradients, score vs. time etc) is to be stored. Here: store in memory.
-        StatsStorage statsStorage = new InMemoryStatsStorage();         //Alternative: new FileStatsStorage(File), for saving and loading later
+        StatsStorage statsStorage = new InMemoryStatsStorage();       // new FileStatsStorage(File)
 
-        //Attach the StatsStorage instance to the UI: this allows the contents of the StatsStorage to be visualized
         uiServer.attach(statsStorage);
 
-        //Then add the StatsListener to collect this information from the network, as it trains
+        int nChannels = 8;
+        int outputNum = 2;
+        int train_batch = 4;
+        int test_batch = 4;
+        int nEpochs = 20;
+        int seed = 123;
 
-
-        int nChannels = 8; // Number of input channels
-        int outputNum = 2; // The number of possible outcomes
-        int train_batch = 8;
-        int test_batch = 8;// Test batch size, czyli rozmiar wejscia. Ustawiamy go tez dalej.
-        int nEpochs = 100; // Number of training epochs - nie wiem jak to ustawic, gdzie to przekazac
-        int seed = 123; // Seed generatora randomowego (?) , który miesza dane przed nauką i testem
-
-        /*
-            Create an iterator using the batch size for one iteration
-         */
         log.info("Load data....");
 
 
-        System.out.println();
-
-        // try other loading than RecordReader... (from word2vecrawtextexample.java)
-        String filePath = "C:\\Users\\kwozn\\Documents\\Projekty\\ml\\src\\main\\resources";//new ClassPathResource("raw_sentences.txt").getFile().getAbsolutePath();
-
-        //First: get the dataset using the record reader. CSVRecordReader handles loading/parsing
-        //String filename = "SandPFormatAllRand.csv";
-
-
-        //TODO: TO ZMIENIAMY NAZWE PLIKU
         String filename1 = "data_train.csv";
         String filename2 = "data_test.csv";
         boolean my_dataset = false; // test dataset
-        if(filename1 == "data_train.csv") my_dataset = true;
-        if(filename2 == "data_test.csv") my_dataset = true;
-        int numLinesToSkip = 0;
-        String delimiter = ",";
+
         RecordReader recordReader1 = new CSVRecordReader();
         RecordReader recordReader2 = new CSVRecordReader();
-        //TODO: TU ZMIENIAMY SCIEZKE
-        recordReader1.initialize(new FileSplit(new File("D:\\PP\\mvn-project-template\\src\\main\\resources\\"+filename1)));
-        //recordReader.initialize(new FileSplit(new ClassPathResource("my_dataset.txt").getFile())); // FileNotFound exception
-        recordReader2.initialize(new FileSplit(new File("D:\\PP\\mvn-project-template\\src\\main\\resources\\"+filename2)));
+        recordReader1.initialize(new FileSplit(new File("D:\\PP\\mvn-project-template\\src\\main\\resources\\" + filename1)));
+        recordReader2.initialize(new FileSplit(new File("D:\\PP\\mvn-project-template\\src\\main\\resources\\" + filename2)));
 
 
-        //Second: the RecordReaderDataSetIterator handles conversion to DataSet objects, ready for use in neural network
-        int labelIndex = 0;
-        int numClasses = 0;
+        int labelIndex = 8;
+        int numClasses = 2;
 
-        if(my_dataset){
-            labelIndex = 8;     //5 values in each row of the my_dataset.txt CSV: 4 input features followed by an integer label (class) index. Labels are the 5th value (index 4) in each row
-            numClasses = 2;     //3 classes (types of my_dataset flowers) in the my_dataset data set. Classes have integer values 0, 1 or 2
-            //TODO: TU USTAWIC ROZMIAR WEJSCIA
-        }
 
-//        DataSetIterator dataSetIterator = new RecordReaderDataSetIterator.Builder()
-//                .classification(labelIndex, numClasses)
-//                .build()
-        DataSetIterator train_iterator = new RecordReaderDataSetIterator(recordReader1,train_batch,labelIndex,numClasses);
-        DataSetIterator test_iterator = new RecordReaderDataSetIterator(recordReader2,test_batch,labelIndex,numClasses);
+        DataSetIterator train_iterator = new RecordReaderDataSetIterator(recordReader1, train_batch, labelIndex, numClasses);
+        DataSetIterator test_iterator = new RecordReaderDataSetIterator(recordReader2, test_batch, labelIndex, numClasses);
         int numInputs = labelIndex;
 
 
         DataSet trainingData = train_iterator.next();
         DataSet testData = test_iterator.next();
 
-        //We need to normalize our data. We'll use NormalizeStandardize (which gives us mean 0, unit variance):
-        DataNormalization normalizer = new NormalizerStandardize();
-        normalizer.fit(trainingData);           //Collect the statistics (mean/stdev) from the training data. This does not modify the input data
-        normalizer.transform(trainingData);     //Apply normalization to the training data
-        normalizer.transform(testData);         //Apply normalization to the test data. This is using statistics calculated from the *training* set
 
-        /*
-            Construct the neural network
-         */
+        DataNormalization normalizer = new NormalizerStandardize();
+        normalizer.fit(trainingData);
+        normalizer.transform(trainingData);
+        normalizer.transform(testData);
+
         log.info("Build model....");
 
         MultiLayerConfiguration conf = new NeuralNetConfiguration.Builder()
                 .seed(seed)
-               // .weightInit(WeightInit.XAVIER)
-                .updater(new Nesterovs(0.2,0.5))
+                .updater(new Nesterovs(0.4, 0.9))
                 .list()
-                //Ponizej mamy warstwe wejsciowa
-                .layer(0,new DenseLayer.Builder()
-                        //nIn and nOut specify depth. nIn here is the nChannels and nOut is the number of filters to be applied
+                .layer(0, new DenseLayer.Builder()
                         .nIn(nChannels)
                         .nOut(5)
                         .weightInit(WeightInit.UNIFORM)
                         .activation(Activation.SIGMOID)
                         .build())
-                //Warstwa ukryta
-                .layer(1,new DenseLayer.Builder()
-                        //nIn and nOut specify depth. nIn here is the nChannels and nOut is the number of filters to be applied
-                        //Pozwoliłem sobie ustawić 5 neuronow w ukrytej
+                .layer(1, new DenseLayer.Builder()
                         .nIn(5)
                         .nOut(5)
-                        //Uniform czyli rozklad gaussa
                         .weightInit(WeightInit.RELU)
                         .activation(Activation.RELU)
                         .build())
-                //Warstwa wyjsciowa
-                .layer(2,new OutputLayer.Builder(LossFunctions.LossFunction.NEGATIVELOGLIKELIHOOD)
-                        // No wejść chyba tyle musi być co w poprzedniej warstwie
+
+                .layer(2, new OutputLayer.Builder(LossFunctions.LossFunction.NEGATIVELOGLIKELIHOOD)
                         .nIn(5)
                         .nOut(outputNum)
                         .activation(Activation.SOFTMAX)
@@ -178,34 +133,20 @@ public class LeNetMNIST {
                         .build())
                 .build();
 
-        /*
-        Regarding the .setInputType(InputType.convolutionalFlat(28,28,1)) line: This does a few things.
-        (a) It adds preprocessors, which handle things like the transition between the convolutional/subsampling layers
-            and the dense layer
-        (b) Does some additional configuration validation
-        (c) Where necessary, sets the nIn (number of input neurons, or input depth in the case of CNNs) values for each
-            layer based on the size of the previous layer (but it won't override values manually set by the user)
-
-        InputTypes can be used with other layer types too (RNNs, MLPs etc) not just CNNs.
-        For normal images (when using ImageRecordReader) use InputType.convolutional(height,width,depth).
-        MNIST record reader is a special case, that outputs 28x28 pixel grayscale (nChannels=1) images, in a "flattened"
-        row vector format (i.e., 1x784 vectors), hence the "convolutionalFlat" input type used here.
-        */
 
         MultiLayerNetwork model = new MultiLayerNetwork(conf);
         model.init();
 
         log.info("Train model...");
 
-        model.setListeners(new MyEvaluativeListener(train_iterator,1, InvocationType.EPOCH_END)); //Print score every 10 iterations and evaluate on test set every epoch
-        model.setListeners(new StatsListener(statsStorage));
+        model.setListeners(new StatsListener(statsStorage), new EvaluativeListener(train_iterator, 1, InvocationType.EPOCH_END)); //Print score every 10 iterations and evaluate on test set every epoch
         System.out.println(train_iterator.toString());
 
-        model.fit(train_iterator,100);
+        model.fit(train_iterator, nEpochs);
 
         String path = FilenameUtils.concat(System.getProperty("java.io.tmpdir"), "test_model.zip");
 
-        log.info("Saving model to tmp folder: "+path);
+        log.info("Saving model to tmp folder: " + path);
 
         Evaluation evaluation = model.evaluate(test_iterator);
         System.out.println(evaluation.stats());
