@@ -21,6 +21,8 @@ import org.deeplearning4j.nn.conf.MultiLayerConfiguration;
 import org.deeplearning4j.nn.conf.NeuralNetConfiguration;
 import org.deeplearning4j.nn.multilayer.MultiLayerNetwork;
 import org.deeplearning4j.nn.weights.WeightInit;
+import org.deeplearning4j.optimize.api.InvocationType;
+import org.deeplearning4j.optimize.listeners.EvaluativeListener;
 import org.deeplearning4j.optimize.listeners.ScoreIterationListener;
 import org.nd4j.evaluation.classification.Evaluation;
 import org.nd4j.linalg.activations.Activation;
@@ -58,8 +60,8 @@ public class LeNetMNIST {
 
         int nChannels = 8; // Number of input channels
         int outputNum = 2; // The number of possible outcomes
-        int batchSize1 = 243;
-        int batchSize2 = 49;// Test batch size, czyli rozmiar wejscia. Ustawiamy go tez dalej.
+        int train_batch = 8;
+        int test_batch = 8;// Test batch size, czyli rozmiar wejscia. Ustawiamy go tez dalej.
         int nEpochs = 100; // Number of training epochs - nie wiem jak to ustawic, gdzie to przekazac
         int seed = 123; // Seed generatora randomowego (?) , który miesza dane przed nauką i testem
 
@@ -107,8 +109,8 @@ public class LeNetMNIST {
 //        DataSetIterator dataSetIterator = new RecordReaderDataSetIterator.Builder()
 //                .classification(labelIndex, numClasses)
 //                .build()
-        DataSetIterator train_iterator = new RecordReaderDataSetIterator(recordReader1,batchSize1,labelIndex,numClasses);
-        DataSetIterator test_iterator = new RecordReaderDataSetIterator(recordReader2,batchSize2,labelIndex,numClasses);
+        DataSetIterator train_iterator = new RecordReaderDataSetIterator(recordReader1,train_batch,labelIndex,numClasses);
+        DataSetIterator test_iterator = new RecordReaderDataSetIterator(recordReader2,test_batch,labelIndex,numClasses);
         int numInputs = labelIndex;
 
 
@@ -178,7 +180,7 @@ public class LeNetMNIST {
 
         log.info("Train model...");
 
-        model.setListeners(new ScoreIterationListener(10)); //Print score every 10 iterations and evaluate on test set every epoch
+        model.setListeners(new ScoreIterationListener(10),new MyEvaluativeListener(train_iterator,1, InvocationType.EPOCH_END)); //Print score every 10 iterations and evaluate on test set every epoch
 
         System.out.println(train_iterator.toString());
 
