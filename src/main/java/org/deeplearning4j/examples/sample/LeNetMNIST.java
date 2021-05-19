@@ -18,6 +18,7 @@ package org.deeplearning4j.examples.sample;
 
 import org.apache.commons.io.FilenameUtils;
 import org.deeplearning4j.core.storage.StatsStorage;
+import org.deeplearning4j.nn.conf.BackpropType;
 import org.deeplearning4j.nn.conf.MultiLayerConfiguration;
 import org.deeplearning4j.nn.conf.NeuralNetConfiguration;
 import org.deeplearning4j.nn.multilayer.MultiLayerNetwork;
@@ -68,27 +69,27 @@ public class LeNetMNIST {
 
         uiServer.attach(statsStorage);
 
-        int nChannels = 8;
+        int nChannels = 4;
         int outputNum = 2;
-        int train_batch = 4;
-        int test_batch = 4;
-        int nEpochs = 20;
+        int train_batch = 2;
+        int test_batch = 2;
+        int nEpochs = 100;
         int seed = 123;
 
         log.info("Load data....");
 
 
-        String filename1 = "data_train.csv";
-        String filename2 = "data_test.csv";
+        String filename1 = "PDE.csv";
+        String filename2 = "PDE_T.csv";
         boolean my_dataset = false; // test dataset
 
         RecordReader recordReader1 = new CSVRecordReader();
         RecordReader recordReader2 = new CSVRecordReader();
-        recordReader1.initialize(new FileSplit(new File("D:\\PP\\mvn-project-template\\src\\main\\resources\\" + filename1)));
-        recordReader2.initialize(new FileSplit(new File("D:\\PP\\mvn-project-template\\src\\main\\resources\\" + filename2)));
+        recordReader1.initialize(new FileSplit(new File("D:\\PP\\mvn-project-template\\" + filename1)));
+        recordReader2.initialize(new FileSplit(new File("D:\\PP\\mvn-project-template\\" + filename2)));
 
 
-        int labelIndex = 8;
+        int labelIndex = 4;
         int numClasses = 2;
 
 
@@ -110,27 +111,27 @@ public class LeNetMNIST {
 
         MultiLayerConfiguration conf = new NeuralNetConfiguration.Builder()
                 .seed(seed)
-                .updater(new Nesterovs(0.4, 0.9))
+                .updater(new Adam(0.5))
                 .list()
                 .layer(0, new DenseLayer.Builder()
                         .nIn(nChannels)
-                        .nOut(5)
+                        .nOut(2)
                         .weightInit(WeightInit.UNIFORM)
                         .activation(Activation.SIGMOID)
                         .build())
                 .layer(1, new DenseLayer.Builder()
-                        .nIn(5)
-                        .nOut(5)
+                        .nIn(2)
+                        .nOut(3)
                         .weightInit(WeightInit.RELU)
                         .activation(Activation.RELU)
                         .build())
-
-                .layer(2, new OutputLayer.Builder(LossFunctions.LossFunction.NEGATIVELOGLIKELIHOOD)
-                        .nIn(5)
-                        .nOut(outputNum)
-                        .activation(Activation.SOFTMAX)
+                .layer(2, new OutputLayer.Builder(LossFunctions.LossFunction.XENT)
+                        .nIn(3)
+                        .nOut(2)
+                        .activation(Activation.SIGMOID)
                         .weightInit(WeightInit.UNIFORM)
                         .build())
+
                 .build();
 
 
@@ -139,7 +140,7 @@ public class LeNetMNIST {
 
         log.info("Train model...");
 
-        model.setListeners(new StatsListener(statsStorage), new EvaluativeListener(train_iterator, 1, InvocationType.EPOCH_END)); //Print score every 10 iterations and evaluate on test set every epoch
+        model.setListeners(new StatsListener(statsStorage), new EvaluativeListener(train_iterator, 1, InvocationType.EPOCH_END));
         System.out.println(train_iterator.toString());
 
         model.fit(train_iterator, nEpochs);
