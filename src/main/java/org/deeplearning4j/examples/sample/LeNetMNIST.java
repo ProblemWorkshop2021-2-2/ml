@@ -82,8 +82,8 @@ public class LeNetMNIST {
 
 
 
-        String filename1 = "OSE.csv";
-        String filename2 = "OSE_T.csv";
+        String filename1 = "TFS.csv";
+        String filename2 = "TFS_T.csv";
         String filename3 = "tensorflow.csv";
 
         boolean my_dataset = false; // test dataset
