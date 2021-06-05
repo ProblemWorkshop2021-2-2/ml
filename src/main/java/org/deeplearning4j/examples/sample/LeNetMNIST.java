@@ -62,6 +62,10 @@ public class LeNetMNIST {
 
     public static void main(String[] args) throws Exception {
 
+    //tutaj fragment z regresja liniowa
+        //Aby obliczyc wartosc dla danego dnia, trzeba go przekazac jako argument
+        Double dayValue = LinearRegression.predictForValue(1);
+        System.out.println(dayValue);
 
         UIServer uiServer = UIServer.getInstance();
 
