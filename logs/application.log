@@ -77554,3 +77554,1069 @@ Saving model to tmp folder: C:\Users\kwozn\AppData\Local\Temp\test_model.zip
                 
 ****************Example finished********************
 
+2021-06-05 16:03:37,948 - [INFO] - from org.deeplearning4j.ui.VertxUIServer in vert.x-eventloop-thread-0
+                
+Deeplearning4j UI server started at: http://localhost:9000
+
+2021-06-05 16:03:37,965 - [INFO] - from org.deeplearning4j.ui.VertxUIServer in main
+                
+StatsStorage instance attached to UI: InMemoryStatsStorage(uid=76bee980)
+
+2021-06-05 16:03:37,966 - [INFO] - from org.deeplearning4j.examples.sample.LeNetMNIST in main
+                
+Load data....
+
+2021-06-05 16:03:38,102 - [INFO] - from org.nd4j.linalg.factory.Nd4jBackend in main
+                
+Loaded [CpuBackend] backend
+
+2021-06-05 16:03:42,262 - [INFO] - from org.nd4j.nativeblas.NativeOpsHolder in main
+                
+Number of threads used for linear algebra: 2
+
+2021-06-05 16:03:42,264 - [WARN] - from org.nd4j.linalg.cpu.nativecpu.CpuNDArrayFactory in main
+                
+*********************************** CPU Feature Check Warning ***********************************
+
+2021-06-05 16:03:42,264 - [WARN] - from org.nd4j.linalg.cpu.nativecpu.CpuNDArrayFactory in main
+                
+Warning: Initializing ND4J with Generic x86 binary on a CPU with AVX/AVX2 support
+
+2021-06-05 16:03:42,265 - [WARN] - from org.nd4j.linalg.cpu.nativecpu.CpuNDArrayFactory in main
+                
+Using ND4J with AVX/AVX2 will improve performance. See deeplearning4j.org/cpu for more details
+
+2021-06-05 16:03:42,266 - [WARN] - from org.nd4j.linalg.cpu.nativecpu.CpuNDArrayFactory in main
+                
+Or set environment variable ND4J_IGNORE_AVX=true to suppress this warning
+
+2021-06-05 16:03:42,267 - [WARN] - from org.nd4j.linalg.cpu.nativecpu.CpuNDArrayFactory in main
+                
+*************************************************************************************************
+
+2021-06-05 16:03:42,879 - [INFO] - from org.nd4j.nativeblas.Nd4jBlas in main
+                
+Number of threads used for OpenMP BLAS: 2
+
+2021-06-05 16:03:42,945 - [INFO] - from org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner in main
+                
+Backend used: [CPU]; OS: [Windows 10]
+
+2021-06-05 16:03:42,946 - [INFO] - from org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner in main
+                
+Cores: [4]; Memory: [4,0GB];
+
+2021-06-05 16:03:42,946 - [INFO] - from org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner in main
+                
+Blas vendor: [OPENBLAS]
+
+2021-06-05 16:03:43,954 - [INFO] - from org.deeplearning4j.examples.sample.LeNetMNIST in main
+                
+Build model....
+
+2021-06-05 16:03:44,028 - [INFO] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Starting MultiLayerNetwork with WorkspaceModes set to [training: ENABLED; inference: ENABLED], cacheMode set to [NONE]
+
+2021-06-05 16:03:44,059 - [INFO] - from org.deeplearning4j.examples.sample.LeNetMNIST in main
+                
+Train model...
+
+2021-06-05 16:03:44,763 - [INFO] - from org.deeplearning4j.optimize.listeners.EvaluativeListener in main
+                
+Starting evaluation nr. 1
+
+2021-06-05 16:03:44,800 - [INFO] - from org.deeplearning4j.optimize.listeners.EvaluativeListener in main
+                
+Reporting evaluation results:
+
+2021-06-05 16:03:44,813 - [INFO] - from org.deeplearning4j.optimize.listeners.EvaluativeListener in main
+                
+Evaluation:
+
+
+========================Evaluation Metrics========================
+ # of classes:    2
+ Accuracy:        0,5714
+ Precision:       0,0000
+ Recall:          0,0000
+ F1 Score:        0,0000
+Precision, recall & F1: reported for positive class (class 1 - "1") only
+
+Warning: 1 class was never predicted by the model and was excluded from average precision
+Classes excluded from average precision: [1]
+
+=========================Confusion Matrix=========================
+ 0 1
+-----
+ 4 0 | 0 = 0
+ 3 0 | 1 = 1
+
+Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
+==================================================================
+
+2021-06-05 16:03:44,871 - [INFO] - from org.deeplearning4j.optimize.listeners.EvaluativeListener in main
+                
+Starting evaluation nr. 2
+
+2021-06-05 16:03:44,898 - [INFO] - from org.deeplearning4j.optimize.listeners.EvaluativeListener in main
+                
+Reporting evaluation results:
+
+2021-06-05 16:03:44,899 - [INFO] - from org.deeplearning4j.optimize.listeners.EvaluativeListener in main
+                
+Evaluation:
+
+
+========================Evaluation Metrics========================
+ # of classes:    2
+ Accuracy:        0,5714
+ Precision:       0,0000
+ Recall:          0,0000
+ F1 Score:        0,0000
+Precision, recall & F1: reported for positive class (class 1 - "1") only
+
+Warning: 1 class was never predicted by the model and was excluded from average precision
+Classes excluded from average precision: [1]
+
+=========================Confusion Matrix=========================
+ 0 1
+-----
+ 4 0 | 0 = 0
+ 3 0 | 1 = 1
+
+Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
+==================================================================
+
+2021-06-05 16:03:44,979 - [INFO] - from org.deeplearning4j.optimize.listeners.EvaluativeListener in main
+                
+Starting evaluation nr. 3
+
+2021-06-05 16:03:45,006 - [INFO] - from org.deeplearning4j.optimize.listeners.EvaluativeListener in main
+                
+Reporting evaluation results:
+
+2021-06-05 16:03:45,007 - [INFO] - from org.deeplearning4j.optimize.listeners.EvaluativeListener in main
+                
+Evaluation:
+
+
+========================Evaluation Metrics========================
+ # of classes:    2
+ Accuracy:        0,5714
+ Precision:       0,0000
+ Recall:          0,0000
+ F1 Score:        0,0000
+Precision, recall & F1: reported for positive class (class 1 - "1") only
+
+Warning: 1 class was never predicted by the model and was excluded from average precision
+Classes excluded from average precision: [1]
+
+=========================Confusion Matrix=========================
+ 0 1
+-----
+ 4 0 | 0 = 0
+ 3 0 | 1 = 1
+
+Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
+==================================================================
+
+2021-06-05 16:03:45,064 - [INFO] - from org.deeplearning4j.optimize.listeners.EvaluativeListener in main
+                
+Starting evaluation nr. 4
+
+2021-06-05 16:03:45,085 - [INFO] - from org.deeplearning4j.optimize.listeners.EvaluativeListener in main
+                
+Reporting evaluation results:
+
+2021-06-05 16:03:45,087 - [INFO] - from org.deeplearning4j.optimize.listeners.EvaluativeListener in main
+                
+Evaluation:
+
+
+========================Evaluation Metrics========================
+ # of classes:    2
+ Accuracy:        0,4286
+ Precision:       0,4286
+ Recall:          1,0000
+ F1 Score:        0,6000
+Precision, recall & F1: reported for positive class (class 1 - "1") only
+
+Warning: 1 class was never predicted by the model and was excluded from average precision
+Classes excluded from average precision: [0]
+
+=========================Confusion Matrix=========================
+ 0 1
+-----
+ 0 4 | 0 = 0
+ 0 3 | 1 = 1
+
+Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
+==================================================================
+
+2021-06-05 16:03:45,129 - [INFO] - from org.deeplearning4j.optimize.listeners.EvaluativeListener in main
+                
+Starting evaluation nr. 5
+
+2021-06-05 16:03:45,149 - [INFO] - from org.deeplearning4j.optimize.listeners.EvaluativeListener in main
+                
+Reporting evaluation results:
+
+2021-06-05 16:03:45,151 - [INFO] - from org.deeplearning4j.optimize.listeners.EvaluativeListener in main
+                
+Evaluation:
+
+
+========================Evaluation Metrics========================
+ # of classes:    2
+ Accuracy:        0,4286
+ Precision:       0,4286
+ Recall:          1,0000
+ F1 Score:        0,6000
+Precision, recall & F1: reported for positive class (class 1 - "1") only
+
+Warning: 1 class was never predicted by the model and was excluded from average precision
+Classes excluded from average precision: [0]
+
+=========================Confusion Matrix=========================
+ 0 1
+-----
+ 0 4 | 0 = 0
+ 0 3 | 1 = 1
+
+Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
+==================================================================
+
+2021-06-05 16:03:45,227 - [INFO] - from org.deeplearning4j.optimize.listeners.EvaluativeListener in main
+                
+Starting evaluation nr. 6
+
+2021-06-05 16:03:45,253 - [INFO] - from org.deeplearning4j.optimize.listeners.EvaluativeListener in main
+                
+Reporting evaluation results:
+
+2021-06-05 16:03:45,254 - [INFO] - from org.deeplearning4j.optimize.listeners.EvaluativeListener in main
+                
+Evaluation:
+
+
+========================Evaluation Metrics========================
+ # of classes:    2
+ Accuracy:        0,5714
+ Precision:       0,0000
+ Recall:          0,0000
+ F1 Score:        0,0000
+Precision, recall & F1: reported for positive class (class 1 - "1") only
+
+Warning: 1 class was never predicted by the model and was excluded from average precision
+Classes excluded from average precision: [1]
+
+=========================Confusion Matrix=========================
+ 0 1
+-----
+ 4 0 | 0 = 0
+ 3 0 | 1 = 1
+
+Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
+==================================================================
+
+2021-06-05 16:03:45,296 - [INFO] - from org.deeplearning4j.optimize.listeners.EvaluativeListener in main
+                
+Starting evaluation nr. 7
+
+2021-06-05 16:03:45,313 - [INFO] - from org.deeplearning4j.optimize.listeners.EvaluativeListener in main
+                
+Reporting evaluation results:
+
+2021-06-05 16:03:45,314 - [INFO] - from org.deeplearning4j.optimize.listeners.EvaluativeListener in main
+                
+Evaluation:
+
+
+========================Evaluation Metrics========================
+ # of classes:    2
+ Accuracy:        0,5714
+ Precision:       0,0000
+ Recall:          0,0000
+ F1 Score:        0,0000
+Precision, recall & F1: reported for positive class (class 1 - "1") only
+
+Warning: 1 class was never predicted by the model and was excluded from average precision
+Classes excluded from average precision: [1]
+
+=========================Confusion Matrix=========================
+ 0 1
+-----
+ 4 0 | 0 = 0
+ 3 0 | 1 = 1
+
+Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
+==================================================================
+
+2021-06-05 16:03:45,363 - [INFO] - from org.deeplearning4j.optimize.listeners.EvaluativeListener in main
+                
+Starting evaluation nr. 8
+
+2021-06-05 16:03:45,386 - [INFO] - from org.deeplearning4j.optimize.listeners.EvaluativeListener in main
+                
+Reporting evaluation results:
+
+2021-06-05 16:03:45,388 - [INFO] - from org.deeplearning4j.optimize.listeners.EvaluativeListener in main
+                
+Evaluation:
+
+
+========================Evaluation Metrics========================
+ # of classes:    2
+ Accuracy:        0,5714
+ Precision:       0,0000
+ Recall:          0,0000
+ F1 Score:        0,0000
+Precision, recall & F1: reported for positive class (class 1 - "1") only
+
+Warning: 1 class was never predicted by the model and was excluded from average precision
+Classes excluded from average precision: [1]
+
+=========================Confusion Matrix=========================
+ 0 1
+-----
+ 4 0 | 0 = 0
+ 3 0 | 1 = 1
+
+Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
+==================================================================
+
+2021-06-05 16:03:45,462 - [INFO] - from org.deeplearning4j.optimize.listeners.EvaluativeListener in main
+                
+Starting evaluation nr. 9
+
+2021-06-05 16:03:45,493 - [INFO] - from org.deeplearning4j.optimize.listeners.EvaluativeListener in main
+                
+Reporting evaluation results:
+
+2021-06-05 16:03:45,494 - [INFO] - from org.deeplearning4j.optimize.listeners.EvaluativeListener in main
+                
+Evaluation:
+
+
+========================Evaluation Metrics========================
+ # of classes:    2
+ Accuracy:        0,5714
+ Precision:       0,0000
+ Recall:          0,0000
+ F1 Score:        0,0000
+Precision, recall & F1: reported for positive class (class 1 - "1") only
+
+Warning: 1 class was never predicted by the model and was excluded from average precision
+Classes excluded from average precision: [1]
+
+=========================Confusion Matrix=========================
+ 0 1
+-----
+ 4 0 | 0 = 0
+ 3 0 | 1 = 1
+
+Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
+==================================================================
+
+2021-06-05 16:03:45,530 - [INFO] - from org.deeplearning4j.optimize.listeners.EvaluativeListener in main
+                
+Starting evaluation nr. 10
+
+2021-06-05 16:03:45,550 - [INFO] - from org.deeplearning4j.optimize.listeners.EvaluativeListener in main
+                
+Reporting evaluation results:
+
+2021-06-05 16:03:45,554 - [INFO] - from org.deeplearning4j.optimize.listeners.EvaluativeListener in main
+                
+Evaluation:
+
+
+========================Evaluation Metrics========================
+ # of classes:    2
+ Accuracy:        0,5714
+ Precision:       0,0000
+ Recall:          0,0000
+ F1 Score:        0,0000
+Precision, recall & F1: reported for positive class (class 1 - "1") only
+
+Warning: 1 class was never predicted by the model and was excluded from average precision
+Classes excluded from average precision: [1]
+
+=========================Confusion Matrix=========================
+ 0 1
+-----
+ 4 0 | 0 = 0
+ 3 0 | 1 = 1
+
+Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
+==================================================================
+
+2021-06-05 16:03:45,599 - [INFO] - from org.deeplearning4j.optimize.listeners.EvaluativeListener in main
+                
+Starting evaluation nr. 11
+
+2021-06-05 16:03:45,615 - [INFO] - from org.deeplearning4j.optimize.listeners.EvaluativeListener in main
+                
+Reporting evaluation results:
+
+2021-06-05 16:03:45,616 - [INFO] - from org.deeplearning4j.optimize.listeners.EvaluativeListener in main
+                
+Evaluation:
+
+
+========================Evaluation Metrics========================
+ # of classes:    2
+ Accuracy:        0,5714
+ Precision:       0,0000
+ Recall:          0,0000
+ F1 Score:        0,0000
+Precision, recall & F1: reported for positive class (class 1 - "1") only
+
+Warning: 1 class was never predicted by the model and was excluded from average precision
+Classes excluded from average precision: [1]
+
+=========================Confusion Matrix=========================
+ 0 1
+-----
+ 4 0 | 0 = 0
+ 3 0 | 1 = 1
+
+Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
+==================================================================
+
+2021-06-05 16:03:45,649 - [INFO] - from org.deeplearning4j.optimize.listeners.EvaluativeListener in main
+                
+Starting evaluation nr. 12
+
+2021-06-05 16:03:45,666 - [INFO] - from org.deeplearning4j.optimize.listeners.EvaluativeListener in main
+                
+Reporting evaluation results:
+
+2021-06-05 16:03:45,668 - [INFO] - from org.deeplearning4j.optimize.listeners.EvaluativeListener in main
+                
+Evaluation:
+
+
+========================Evaluation Metrics========================
+ # of classes:    2
+ Accuracy:        0,5714
+ Precision:       0,0000
+ Recall:          0,0000
+ F1 Score:        0,0000
+Precision, recall & F1: reported for positive class (class 1 - "1") only
+
+Warning: 1 class was never predicted by the model and was excluded from average precision
+Classes excluded from average precision: [1]
+
+=========================Confusion Matrix=========================
+ 0 1
+-----
+ 4 0 | 0 = 0
+ 3 0 | 1 = 1
+
+Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
+==================================================================
+
+2021-06-05 16:03:45,708 - [INFO] - from org.deeplearning4j.optimize.listeners.EvaluativeListener in main
+                
+Starting evaluation nr. 13
+
+2021-06-05 16:03:45,726 - [INFO] - from org.deeplearning4j.optimize.listeners.EvaluativeListener in main
+                
+Reporting evaluation results:
+
+2021-06-05 16:03:45,728 - [INFO] - from org.deeplearning4j.optimize.listeners.EvaluativeListener in main
+                
+Evaluation:
+
+
+========================Evaluation Metrics========================
+ # of classes:    2
+ Accuracy:        0,5714
+ Precision:       0,0000
+ Recall:          0,0000
+ F1 Score:        0,0000
+Precision, recall & F1: reported for positive class (class 1 - "1") only
+
+Warning: 1 class was never predicted by the model and was excluded from average precision
+Classes excluded from average precision: [1]
+
+=========================Confusion Matrix=========================
+ 0 1
+-----
+ 4 0 | 0 = 0
+ 3 0 | 1 = 1
+
+Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
+==================================================================
+
+2021-06-05 16:03:45,773 - [INFO] - from org.deeplearning4j.optimize.listeners.EvaluativeListener in main
+                
+Starting evaluation nr. 14
+
+2021-06-05 16:03:45,790 - [INFO] - from org.deeplearning4j.optimize.listeners.EvaluativeListener in main
+                
+Reporting evaluation results:
+
+2021-06-05 16:03:45,792 - [INFO] - from org.deeplearning4j.optimize.listeners.EvaluativeListener in main
+                
+Evaluation:
+
+
+========================Evaluation Metrics========================
+ # of classes:    2
+ Accuracy:        0,5714
+ Precision:       0,0000
+ Recall:          0,0000
+ F1 Score:        0,0000
+Precision, recall & F1: reported for positive class (class 1 - "1") only
+
+Warning: 1 class was never predicted by the model and was excluded from average precision
+Classes excluded from average precision: [1]
+
+=========================Confusion Matrix=========================
+ 0 1
+-----
+ 4 0 | 0 = 0
+ 3 0 | 1 = 1
+
+Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
+==================================================================
+
+2021-06-05 16:03:45,823 - [INFO] - from org.deeplearning4j.optimize.listeners.EvaluativeListener in main
+                
+Starting evaluation nr. 15
+
+2021-06-05 16:03:45,839 - [INFO] - from org.deeplearning4j.optimize.listeners.EvaluativeListener in main
+                
+Reporting evaluation results:
+
+2021-06-05 16:03:45,842 - [INFO] - from org.deeplearning4j.optimize.listeners.EvaluativeListener in main
+                
+Evaluation:
+
+
+========================Evaluation Metrics========================
+ # of classes:    2
+ Accuracy:        0,5714
+ Precision:       0,0000
+ Recall:          0,0000
+ F1 Score:        0,0000
+Precision, recall & F1: reported for positive class (class 1 - "1") only
+
+Warning: 1 class was never predicted by the model and was excluded from average precision
+Classes excluded from average precision: [1]
+
+=========================Confusion Matrix=========================
+ 0 1
+-----
+ 4 0 | 0 = 0
+ 3 0 | 1 = 1
+
+Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
+==================================================================
+
+2021-06-05 16:03:45,888 - [INFO] - from org.deeplearning4j.optimize.listeners.EvaluativeListener in main
+                
+Starting evaluation nr. 16
+
+2021-06-05 16:03:45,907 - [INFO] - from org.deeplearning4j.optimize.listeners.EvaluativeListener in main
+                
+Reporting evaluation results:
+
+2021-06-05 16:03:45,909 - [INFO] - from org.deeplearning4j.optimize.listeners.EvaluativeListener in main
+                
+Evaluation:
+
+
+========================Evaluation Metrics========================
+ # of classes:    2
+ Accuracy:        0,5714
+ Precision:       0,0000
+ Recall:          0,0000
+ F1 Score:        0,0000
+Precision, recall & F1: reported for positive class (class 1 - "1") only
+
+Warning: 1 class was never predicted by the model and was excluded from average precision
+Classes excluded from average precision: [1]
+
+=========================Confusion Matrix=========================
+ 0 1
+-----
+ 4 0 | 0 = 0
+ 3 0 | 1 = 1
+
+Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
+==================================================================
+
+2021-06-05 16:03:45,946 - [INFO] - from org.deeplearning4j.optimize.listeners.EvaluativeListener in main
+                
+Starting evaluation nr. 17
+
+2021-06-05 16:03:45,961 - [INFO] - from org.deeplearning4j.optimize.listeners.EvaluativeListener in main
+                
+Reporting evaluation results:
+
+2021-06-05 16:03:45,963 - [INFO] - from org.deeplearning4j.optimize.listeners.EvaluativeListener in main
+                
+Evaluation:
+
+
+========================Evaluation Metrics========================
+ # of classes:    2
+ Accuracy:        0,5714
+ Precision:       0,0000
+ Recall:          0,0000
+ F1 Score:        0,0000
+Precision, recall & F1: reported for positive class (class 1 - "1") only
+
+Warning: 1 class was never predicted by the model and was excluded from average precision
+Classes excluded from average precision: [1]
+
+=========================Confusion Matrix=========================
+ 0 1
+-----
+ 4 0 | 0 = 0
+ 3 0 | 1 = 1
+
+Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
+==================================================================
+
+2021-06-05 16:03:46,006 - [INFO] - from org.deeplearning4j.optimize.listeners.EvaluativeListener in main
+                
+Starting evaluation nr. 18
+
+2021-06-05 16:03:46,022 - [INFO] - from org.deeplearning4j.optimize.listeners.EvaluativeListener in main
+                
+Reporting evaluation results:
+
+2021-06-05 16:03:46,023 - [INFO] - from org.deeplearning4j.optimize.listeners.EvaluativeListener in main
+                
+Evaluation:
+
+
+========================Evaluation Metrics========================
+ # of classes:    2
+ Accuracy:        0,5714
+ Precision:       0,0000
+ Recall:          0,0000
+ F1 Score:        0,0000
+Precision, recall & F1: reported for positive class (class 1 - "1") only
+
+Warning: 1 class was never predicted by the model and was excluded from average precision
+Classes excluded from average precision: [1]
+
+=========================Confusion Matrix=========================
+ 0 1
+-----
+ 4 0 | 0 = 0
+ 3 0 | 1 = 1
+
+Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
+==================================================================
+
+2021-06-05 16:03:46,059 - [INFO] - from org.deeplearning4j.optimize.listeners.EvaluativeListener in main
+                
+Starting evaluation nr. 19
+
+2021-06-05 16:03:46,076 - [INFO] - from org.deeplearning4j.optimize.listeners.EvaluativeListener in main
+                
+Reporting evaluation results:
+
+2021-06-05 16:03:46,077 - [INFO] - from org.deeplearning4j.optimize.listeners.EvaluativeListener in main
+                
+Evaluation:
+
+
+========================Evaluation Metrics========================
+ # of classes:    2
+ Accuracy:        0,5714
+ Precision:       0,0000
+ Recall:          0,0000
+ F1 Score:        0,0000
+Precision, recall & F1: reported for positive class (class 1 - "1") only
+
+Warning: 1 class was never predicted by the model and was excluded from average precision
+Classes excluded from average precision: [1]
+
+=========================Confusion Matrix=========================
+ 0 1
+-----
+ 4 0 | 0 = 0
+ 3 0 | 1 = 1
+
+Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
+==================================================================
+
+2021-06-05 16:03:46,103 - [INFO] - from org.deeplearning4j.optimize.listeners.EvaluativeListener in main
+                
+Starting evaluation nr. 20
+
+2021-06-05 16:03:46,117 - [INFO] - from org.deeplearning4j.optimize.listeners.EvaluativeListener in main
+                
+Reporting evaluation results:
+
+2021-06-05 16:03:46,118 - [INFO] - from org.deeplearning4j.optimize.listeners.EvaluativeListener in main
+                
+Evaluation:
+
+
+========================Evaluation Metrics========================
+ # of classes:    2
+ Accuracy:        0,5714
+ Precision:       0,0000
+ Recall:          0,0000
+ F1 Score:        0,0000
+Precision, recall & F1: reported for positive class (class 1 - "1") only
+
+Warning: 1 class was never predicted by the model and was excluded from average precision
+Classes excluded from average precision: [1]
+
+=========================Confusion Matrix=========================
+ 0 1
+-----
+ 4 0 | 0 = 0
+ 3 0 | 1 = 1
+
+Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
+==================================================================
+
+2021-06-05 16:03:46,161 - [INFO] - from org.deeplearning4j.optimize.listeners.EvaluativeListener in main
+                
+Starting evaluation nr. 21
+
+2021-06-05 16:03:46,176 - [INFO] - from org.deeplearning4j.optimize.listeners.EvaluativeListener in main
+                
+Reporting evaluation results:
+
+2021-06-05 16:03:46,177 - [INFO] - from org.deeplearning4j.optimize.listeners.EvaluativeListener in main
+                
+Evaluation:
+
+
+========================Evaluation Metrics========================
+ # of classes:    2
+ Accuracy:        0,5714
+ Precision:       0,0000
+ Recall:          0,0000
+ F1 Score:        0,0000
+Precision, recall & F1: reported for positive class (class 1 - "1") only
+
+Warning: 1 class was never predicted by the model and was excluded from average precision
+Classes excluded from average precision: [1]
+
+=========================Confusion Matrix=========================
+ 0 1
+-----
+ 4 0 | 0 = 0
+ 3 0 | 1 = 1
+
+Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
+==================================================================
+
+2021-06-05 16:03:46,240 - [INFO] - from org.deeplearning4j.optimize.listeners.EvaluativeListener in main
+                
+Starting evaluation nr. 22
+
+2021-06-05 16:03:46,255 - [INFO] - from org.deeplearning4j.optimize.listeners.EvaluativeListener in main
+                
+Reporting evaluation results:
+
+2021-06-05 16:03:46,256 - [INFO] - from org.deeplearning4j.optimize.listeners.EvaluativeListener in main
+                
+Evaluation:
+
+
+========================Evaluation Metrics========================
+ # of classes:    2
+ Accuracy:        0,5714
+ Precision:       0,0000
+ Recall:          0,0000
+ F1 Score:        0,0000
+Precision, recall & F1: reported for positive class (class 1 - "1") only
+
+Warning: 1 class was never predicted by the model and was excluded from average precision
+Classes excluded from average precision: [1]
+
+=========================Confusion Matrix=========================
+ 0 1
+-----
+ 4 0 | 0 = 0
+ 3 0 | 1 = 1
+
+Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
+==================================================================
+
+2021-06-05 16:03:46,291 - [INFO] - from org.deeplearning4j.optimize.listeners.EvaluativeListener in main
+                
+Starting evaluation nr. 23
+
+2021-06-05 16:03:46,304 - [INFO] - from org.deeplearning4j.optimize.listeners.EvaluativeListener in main
+                
+Reporting evaluation results:
+
+2021-06-05 16:03:46,305 - [INFO] - from org.deeplearning4j.optimize.listeners.EvaluativeListener in main
+                
+Evaluation:
+
+
+========================Evaluation Metrics========================
+ # of classes:    2
+ Accuracy:        0,5714
+ Precision:       0,0000
+ Recall:          0,0000
+ F1 Score:        0,0000
+Precision, recall & F1: reported for positive class (class 1 - "1") only
+
+Warning: 1 class was never predicted by the model and was excluded from average precision
+Classes excluded from average precision: [1]
+
+=========================Confusion Matrix=========================
+ 0 1
+-----
+ 4 0 | 0 = 0
+ 3 0 | 1 = 1
+
+Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
+==================================================================
+
+2021-06-05 16:03:46,340 - [INFO] - from org.deeplearning4j.optimize.listeners.EvaluativeListener in main
+                
+Starting evaluation nr. 24
+
+2021-06-05 16:03:46,353 - [INFO] - from org.deeplearning4j.optimize.listeners.EvaluativeListener in main
+                
+Reporting evaluation results:
+
+2021-06-05 16:03:46,355 - [INFO] - from org.deeplearning4j.optimize.listeners.EvaluativeListener in main
+                
+Evaluation:
+
+
+========================Evaluation Metrics========================
+ # of classes:    2
+ Accuracy:        0,5714
+ Precision:       0,0000
+ Recall:          0,0000
+ F1 Score:        0,0000
+Precision, recall & F1: reported for positive class (class 1 - "1") only
+
+Warning: 1 class was never predicted by the model and was excluded from average precision
+Classes excluded from average precision: [1]
+
+=========================Confusion Matrix=========================
+ 0 1
+-----
+ 4 0 | 0 = 0
+ 3 0 | 1 = 1
+
+Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
+==================================================================
+
+2021-06-05 16:03:46,385 - [INFO] - from org.deeplearning4j.optimize.listeners.EvaluativeListener in main
+                
+Starting evaluation nr. 25
+
+2021-06-05 16:03:46,400 - [INFO] - from org.deeplearning4j.optimize.listeners.EvaluativeListener in main
+                
+Reporting evaluation results:
+
+2021-06-05 16:03:46,401 - [INFO] - from org.deeplearning4j.optimize.listeners.EvaluativeListener in main
+                
+Evaluation:
+
+
+========================Evaluation Metrics========================
+ # of classes:    2
+ Accuracy:        0,5714
+ Precision:       0,0000
+ Recall:          0,0000
+ F1 Score:        0,0000
+Precision, recall & F1: reported for positive class (class 1 - "1") only
+
+Warning: 1 class was never predicted by the model and was excluded from average precision
+Classes excluded from average precision: [1]
+
+=========================Confusion Matrix=========================
+ 0 1
+-----
+ 4 0 | 0 = 0
+ 3 0 | 1 = 1
+
+Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
+==================================================================
+
+2021-06-05 16:03:46,442 - [INFO] - from org.deeplearning4j.optimize.listeners.EvaluativeListener in main
+                
+Starting evaluation nr. 26
+
+2021-06-05 16:03:46,458 - [INFO] - from org.deeplearning4j.optimize.listeners.EvaluativeListener in main
+                
+Reporting evaluation results:
+
+2021-06-05 16:03:46,459 - [INFO] - from org.deeplearning4j.optimize.listeners.EvaluativeListener in main
+                
+Evaluation:
+
+
+========================Evaluation Metrics========================
+ # of classes:    2
+ Accuracy:        0,5714
+ Precision:       0,0000
+ Recall:          0,0000
+ F1 Score:        0,0000
+Precision, recall & F1: reported for positive class (class 1 - "1") only
+
+Warning: 1 class was never predicted by the model and was excluded from average precision
+Classes excluded from average precision: [1]
+
+=========================Confusion Matrix=========================
+ 0 1
+-----
+ 4 0 | 0 = 0
+ 3 0 | 1 = 1
+
+Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
+==================================================================
+
+2021-06-05 16:03:46,487 - [INFO] - from org.deeplearning4j.optimize.listeners.EvaluativeListener in main
+                
+Starting evaluation nr. 27
+
+2021-06-05 16:03:46,501 - [INFO] - from org.deeplearning4j.optimize.listeners.EvaluativeListener in main
+                
+Reporting evaluation results:
+
+2021-06-05 16:03:46,502 - [INFO] - from org.deeplearning4j.optimize.listeners.EvaluativeListener in main
+                
+Evaluation:
+
+
+========================Evaluation Metrics========================
+ # of classes:    2
+ Accuracy:        0,5714
+ Precision:       0,0000
+ Recall:          0,0000
+ F1 Score:        0,0000
+Precision, recall & F1: reported for positive class (class 1 - "1") only
+
+Warning: 1 class was never predicted by the model and was excluded from average precision
+Classes excluded from average precision: [1]
+
+=========================Confusion Matrix=========================
+ 0 1
+-----
+ 4 0 | 0 = 0
+ 3 0 | 1 = 1
+
+Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
+==================================================================
+
+2021-06-05 16:03:46,538 - [INFO] - from org.deeplearning4j.optimize.listeners.EvaluativeListener in main
+                
+Starting evaluation nr. 28
+
+2021-06-05 16:03:46,551 - [INFO] - from org.deeplearning4j.optimize.listeners.EvaluativeListener in main
+                
+Reporting evaluation results:
+
+2021-06-05 16:03:46,552 - [INFO] - from org.deeplearning4j.optimize.listeners.EvaluativeListener in main
+                
+Evaluation:
+
+
+========================Evaluation Metrics========================
+ # of classes:    2
+ Accuracy:        0,5714
+ Precision:       0,0000
+ Recall:          0,0000
+ F1 Score:        0,0000
+Precision, recall & F1: reported for positive class (class 1 - "1") only
+
+Warning: 1 class was never predicted by the model and was excluded from average precision
+Classes excluded from average precision: [1]
+
+=========================Confusion Matrix=========================
+ 0 1
+-----
+ 4 0 | 0 = 0
+ 3 0 | 1 = 1
+
+Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
+==================================================================
+
+2021-06-05 16:03:46,584 - [INFO] - from org.deeplearning4j.optimize.listeners.EvaluativeListener in main
+                
+Starting evaluation nr. 29
+
+2021-06-05 16:03:46,602 - [INFO] - from org.deeplearning4j.optimize.listeners.EvaluativeListener in main
+                
+Reporting evaluation results:
+
+2021-06-05 16:03:46,604 - [INFO] - from org.deeplearning4j.optimize.listeners.EvaluativeListener in main
+                
+Evaluation:
+
+
+========================Evaluation Metrics========================
+ # of classes:    2
+ Accuracy:        0,5714
+ Precision:       0,0000
+ Recall:          0,0000
+ F1 Score:        0,0000
+Precision, recall & F1: reported for positive class (class 1 - "1") only
+
+Warning: 1 class was never predicted by the model and was excluded from average precision
+Classes excluded from average precision: [1]
+
+=========================Confusion Matrix=========================
+ 0 1
+-----
+ 4 0 | 0 = 0
+ 3 0 | 1 = 1
+
+Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
+==================================================================
+
+2021-06-05 16:03:46,639 - [INFO] - from org.deeplearning4j.optimize.listeners.EvaluativeListener in main
+                
+Starting evaluation nr. 30
+
+2021-06-05 16:03:46,657 - [INFO] - from org.deeplearning4j.optimize.listeners.EvaluativeListener in main
+                
+Reporting evaluation results:
+
+2021-06-05 16:03:46,657 - [INFO] - from org.deeplearning4j.optimize.listeners.EvaluativeListener in main
+                
+Evaluation:
+
+
+========================Evaluation Metrics========================
+ # of classes:    2
+ Accuracy:        0,5714
+ Precision:       0,0000
+ Recall:          0,0000
+ F1 Score:        0,0000
+Precision, recall & F1: reported for positive class (class 1 - "1") only
+
+Warning: 1 class was never predicted by the model and was excluded from average precision
+Classes excluded from average precision: [1]
+
+=========================Confusion Matrix=========================
+ 0 1
+-----
+ 4 0 | 0 = 0
+ 3 0 | 1 = 1
+
+Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
+==================================================================
+
+2021-06-05 16:03:46,659 - [INFO] - from org.deeplearning4j.examples.sample.LeNetMNIST in main
+                
+Saving model to tmp folder: C:\Users\kwozn\AppData\Local\Temp\test_model.zip
+
+2021-06-05 16:03:46,679 - [INFO] - from org.deeplearning4j.examples.sample.LeNetMNIST in main
+                
+****************Example finished********************
+
