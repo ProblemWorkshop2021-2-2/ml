@@ -77,12 +77,15 @@ public class LeNetMNIST {
         int nEpochs = 15;
         int seed = 1;
 
+
         log.info("Load data....");
+
 
 
         String filename1 = "OSE.csv";
         String filename2 = "OSE_T.csv";
         String filename3 = "tensorflow.csv";
+
         boolean my_dataset = false; // test dataset
 
         RecordReader recordReader1 = new CSVRecordReader();
@@ -91,6 +94,7 @@ public class LeNetMNIST {
         recordReader1.initialize(new FileSplit(new File("D:\\PP\\mvn-project-template\\newData\\" + filename1)));
         recordReader2.initialize(new FileSplit(new File("D:\\PP\\mvn-project-template\\newData\\" + filename2)));
         recordReader3.initialize(new FileSplit(new File("D:\\PP\\mvn-project-template\\newData\\" + filename3)));
+
 
 
         int labelIndex = 22;//21;
