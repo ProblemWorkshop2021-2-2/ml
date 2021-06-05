@@ -32,6 +32,7 @@ import org.deeplearning4j.ui.model.storage.FileStatsStorage;
 import org.deeplearning4j.ui.model.storage.InMemoryStatsStorage;
 import org.nd4j.evaluation.classification.Evaluation;
 import org.nd4j.linalg.activations.Activation;
+import org.nd4j.linalg.api.ndarray.INDArray;
 import org.nd4j.linalg.dataset.api.iterator.DataSetIterator;
 import org.nd4j.linalg.learning.config.Adam;
 import org.nd4j.linalg.learning.config.Nesterovs;
@@ -73,38 +74,47 @@ public class LeNetMNIST {
 
         uiServer.attach(statsStorage);
 
-        int nChannels = 4;
+        int nChannels = 22;
         int outputNum = 2;
-        int train_batch = 2;
-        int test_batch = 2;
-        int nEpochs = 30;
-        int seed = 123;
+        int train_batch = 5;
+        int test_batch = 1;
+        int nEpochs = 15;
+        int seed = 1;
+
 
         log.info("Load data....");
 
 
-        String filename1 = "BCE.csv";
-        String filename2 = "BCE_T.csv";
+
+        String filename1 = "TFS.csv";
+        String filename2 = "TFS_T.csv";
+        String filename3 = "tensorflow.csv";
 
         boolean my_dataset = false; // test dataset
 
         RecordReader recordReader1 = new CSVRecordReader();
         RecordReader recordReader2 = new CSVRecordReader();
-        recordReader1.initialize(new FileSplit(new File("C:\\Users\\kwozn\\Documents\\Projekty\\ml\\" + filename1)));
-        recordReader2.initialize(new FileSplit(new File("C:\\Users\\kwozn\\Documents\\Projekty\\ml\\" + filename2)));
+        RecordReader recordReader3 = new CSVRecordReader();
+        recordReader1.initialize(new FileSplit(new File("D:\\PP\\mvn-project-template\\newData\\" + filename1)));
+        recordReader2.initialize(new FileSplit(new File("D:\\PP\\mvn-project-template\\newData\\" + filename2)));
+        recordReader3.initialize(new FileSplit(new File("D:\\PP\\mvn-project-template\\newData\\" + filename3)));
 
 
-        int labelIndex = 4;
+
+        int labelIndex = 22;//21;
         int numClasses = 2;
 
 
         DataSetIterator train_iterator = new RecordReaderDataSetIterator(recordReader1, train_batch, labelIndex, numClasses);
         DataSetIterator test_iterator = new RecordReaderDataSetIterator(recordReader2, test_batch, labelIndex, numClasses);
+        DataSetIterator classify_iterator = new RecordReaderDataSetIterator(recordReader3, test_batch, labelIndex, numClasses);
+
         int numInputs = labelIndex;
 
 
         DataSet trainingData = train_iterator.next();
         DataSet testData = test_iterator.next();
+
 
 
         DataNormalization normalizer = new NormalizerStandardize();
@@ -116,23 +126,23 @@ public class LeNetMNIST {
 
         MultiLayerConfiguration conf = new NeuralNetConfiguration.Builder()
                 .seed(seed)
-                .updater(new Adam(0.5))
+                .updater(new Adam(0.1))
                 .list()
                 .layer(0, new DenseLayer.Builder()
                         .nIn(nChannels)
-                        .nOut(2)
+                        .nOut(5)
                         .weightInit(WeightInit.UNIFORM)
                         .activation(Activation.SIGMOID)
                         .build())
                 .layer(1, new DenseLayer.Builder()
-                        .nIn(2)
-                        .nOut(3)
+                        .nIn(5)
+                        .nOut(7)
                         .weightInit(WeightInit.RELU)
                         .activation(Activation.RELU)
                         .build())
-                .layer(2, new OutputLayer.Builder(LossFunctions.LossFunction.XENT)
-                        .nIn(3)
-                        .nOut(2)
+                .layer(2, new OutputLayer.Builder(LossFunctions.LossFunction.MSE)
+                        .nIn(7)
+                        .nOut(outputNum)
                         .activation(Activation.SIGMOID)
                         .weightInit(WeightInit.UNIFORM)
                         .build())
@@ -145,7 +155,7 @@ public class LeNetMNIST {
 
         log.info("Train model...");
 
-        model.setListeners(new StatsListener(statsStorage), new EvaluativeListener(train_iterator, 1, InvocationType.EPOCH_END));
+        model.setListeners(new StatsListener(statsStorage));//, new EvaluativeListener(train_iterator, 1, InvocationType.EPOCH_END));
         System.out.println(train_iterator.toString());
 
         model.fit(train_iterator, nEpochs);
@@ -161,7 +171,9 @@ public class LeNetMNIST {
 
         log.info("****************Example finished********************");
 
+        INDArray output = model.output(classify_iterator);
 
+        log.info(output.toString());
         new Scanner(System.in).nextInt();
     }
 }
