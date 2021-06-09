@@ -63,18 +63,20 @@ public class LeNetMNIST {
 
     public static void main(String[] args) throws Exception {
 
-    //tutaj fragment z regresja liniowa
+    /*//tutaj fragment z regresja liniowa
         //Aby obliczyc wartosc dla danego dnia, trzeba go przekazac jako argument
         Double dayValue = LinearRegression.predictForValue(1);
         System.out.println(dayValue);
 
+
+     */
         UIServer uiServer = UIServer.getInstance();
 
         StatsStorage statsStorage = new InMemoryStatsStorage();       // new FileStatsStorage(File)
 
         uiServer.attach(statsStorage);
 
-        int nChannels = 22;
+        int nChannels = 9;
         int outputNum = 2;
         int train_batch = 5;
         int test_batch = 1;
@@ -82,12 +84,14 @@ public class LeNetMNIST {
         int seed = 1;
 
 
+
+
         log.info("Load data....");
 
 
 
-        String filename1 = "TFS.csv";
-        String filename2 = "TFS_T.csv";
+        String filename1 = "OSE.csv";
+        String filename2 = "OSE_T.csv";
         String filename3 = "tensorflow.csv";
 
         boolean my_dataset = false; // test dataset
@@ -101,7 +105,7 @@ public class LeNetMNIST {
 
 
 
-        int labelIndex = 22;//21;
+        int labelIndex = 9;//21;
         int numClasses = 2;
 
 
@@ -126,22 +130,22 @@ public class LeNetMNIST {
 
         MultiLayerConfiguration conf = new NeuralNetConfiguration.Builder()
                 .seed(seed)
-                .updater(new Adam(0.1))
+                .updater(new Adam(0.01))
                 .list()
                 .layer(0, new DenseLayer.Builder()
                         .nIn(nChannels)
-                        .nOut(5)
-                        .weightInit(WeightInit.UNIFORM)
-                        .activation(Activation.SIGMOID)
+                        .nOut(2)
+                        .weightInit(WeightInit.RELU)
+                        .activation(Activation.RELU)
                         .build())
                 .layer(1, new DenseLayer.Builder()
-                        .nIn(5)
-                        .nOut(7)
+                        .nIn(2)
+                        .nOut(3)
                         .weightInit(WeightInit.RELU)
                         .activation(Activation.RELU)
                         .build())
                 .layer(2, new OutputLayer.Builder(LossFunctions.LossFunction.MSE)
-                        .nIn(7)
+                        .nIn(3)
                         .nOut(outputNum)
                         .activation(Activation.SIGMOID)
                         .weightInit(WeightInit.UNIFORM)
